@@ -71,7 +71,7 @@ const staticData = {
       "description": "Membre officiel de l'équipe mondiale de l'Eurasia Afro Chamber of Commerce (EACC) et Envoyé Spécial pour la Diplomatie Éducative et la Coopération Interculturelle en Afrique.",
       "descriptionEn": "Official member of the Eurasia Afro Chamber of Commerce (EACC) Global Team and Special Envoy for Education Diplomacy & Intercultural Cooperation (Africa).",
       "category": "Diplomacy",
-      "imageUrl": "",
+      "imageUrl": "uploads/realisations/images_of_16_image_of_16_Eurasia_Afro_Chamber_of_Commerce_personal_picture1.jpeg",
       "pdfUrl": "",
       "date": "2024",
       "featured": true
@@ -83,7 +83,7 @@ const staticData = {
       "description": "L'EACC annonce la nomination du Dr. Arsène Romaric TATSAZEU KENFACK comme représentant officiel auprès du Département de l'Éducation, des Sciences, de la Technologie et de l'Innovation (ESTI) de l'Union Africaine.",
       "descriptionEn": "EACC announces the nomination of Dr. Arsène Romaric TATSAZEU KENFACK as official External Observer within the African Union's ESTI framework.",
       "category": "Diplomacy",
-      "imageUrl": "uploads/realisations/image_of_2_Diplomatic_Appointment_Announcement-uyIG7KI1xkW6R5eRgZn1ejhbKC5spy.jpg",
+      "imageUrl": "uploads/realisations/2_image_of_2_Diplomatic_Appointment_Announcement-uyIG7KI1xkW6R5eRgZn1ejhbKC5spy.jpg",
       "pdfUrl": "",
       "date": "2026",
       "featured": true
@@ -95,7 +95,7 @@ const staticData = {
       "description": "Représentation officielle de la Humanitarian Focus Foundation (HFF) lors de la Commission sur la Condition de la Femme des Nations Unies.",
       "descriptionEn": "Official representation of the Humanitarian Focus Foundation (HFF) at the United Nations Commission on the Status of Women.",
       "category": "Diplomacy",
-      "imageUrl": "uploads/realisations/image_of_3_HFF_Representaive_at_Commission_on_the_status_of_women_-jLiAMpdOBC3U6JKZyxwCZs5mq5xuPn.jpg",
+      "imageUrl": "uploads/realisations/3_image_of_3_HFF_Representaive_at_Commission_on_the_status_of_women_-jLiAMpdOBC3U6JKZyxwCZs5mq5xuPn.jpg",
       "pdfUrl": "",
       "date": "2025",
       "featured": false
@@ -119,7 +119,7 @@ const staticData = {
       "description": "Document stratégique sur les partenariats de résilience face aux réalités mondiales contemporaines.",
       "descriptionEn": "Strategic document on resilience partnerships in the face of contemporary global realities.",
       "category": "Publication",
-      "imageUrl": "uploads/realisations/image_of_6_Resilience_partnerships_and_global_realities-D1qsWKiJO7azqOqwLPJ5MEYpDyqsWr.jpeg",
+      "imageUrl": "uploads/realisations/6_image_of_6_Resilience_partnerships_and_global_realities-D1qsWKiJO7azqOqwLPJ5MEYpDyqsWr.jpeg",
       "pdfUrl": "",
       "date": "2024",
       "featured": false
@@ -143,7 +143,7 @@ const staticData = {
       "description": "Déclaration de vision officielle du Dr. TATSAZEU pour soutenir le développement durable à travers l'Europe, l'Asie et l'Afrique via l'éducation, la diplomatie et la coopération interculturelle.",
       "descriptionEn": "Official vision statement by Dr. TATSAZEU to support sustainable development across Europe, Asia and Africa through education, diplomacy and intercultural cooperation.",
       "category": "Publication",
-      "imageUrl": "uploads/realisations/image_of_8_Arsene_Romaric_TATSAZEU_KENFACK_vision_Statement_to_support_sustainable_development_-rG8yhVrMAwz93zTw5ogWz7JIAfErAQ.jpeg",
+      "imageUrl": "uploads/realisations/8_image_of_8_Arsene_Romaric_TATSAZEU_KENFACK_vision_Statement_to_support_sustainable_development_-rG8yhVrMAwz93zTw5ogWz7JIAfErAQ.jpeg",
       "pdfUrl": "",
       "date": "2024",
       "featured": true
@@ -155,7 +155,7 @@ const staticData = {
       "description": "Certificat officiel de nomination délivré par le GOEDFA, attestant le rôle et les responsabilités confiés au Dr. TATSAZEU.",
       "descriptionEn": "Official certificate of appointment issued by GOEDFA, attesting to the role and responsibilities entrusted to Dr. TATSAZEU.",
       "category": "Certificate",
-      "imageUrl": "uploads/realisations/image_of_9_GOEDFA_Certificate_of_Appointment-chqKV852FlkZLlXTcc0iHW5s0QRwV7.jpeg",
+      "imageUrl": "uploads/realisations/9_image_of_9_GOEDFA_Certificate_of_Appointment-chqKV852FlkZLlXTcc0iHW5s0QRwV7.jpeg",
       "pdfUrl": "uploads/realisations/9_pdf_of_9_GOEDFA_Certificate_of_Appointment-0DZjkSliu3qUSAcmCn0N06By1cT3aK.pdf",
       "date": "2023",
       "featured": false
@@ -167,7 +167,7 @@ const staticData = {
       "description": "Identification diplomatique officielle délivrée par une Organisation Intergouvernementale (IGO), accréditation diplomatique de haut niveau.",
       "descriptionEn": "Official diplomatic identification issued by an Intergovernmental Organization (IGO), high-level diplomatic accreditation.",
       "category": "Certificate",
-      "imageUrl": "uploads/realisations/image_of_10_IGO_diplomatic_identification_face-TbMWFDLjhiai405gohDyKS0WJWkzv0.png",
+      "imageUrl": "uploads/realisations/10_image_of_10_IGO_diplomatic_identification_face-TbMWFDLjhiai405gohDyKS0WJWkzv0.png",
       "pdfUrl": "",
       "date": "2024",
       "featured": true
@@ -227,7 +227,7 @@ const staticData = {
       "description": "Signature d'un accord de coopération entre l'IDF Latino-Africano et Landesverband Hamburg pour 2 ans, visant le développement social durable en Allemagne et à l'international.",
       "descriptionEn": "Signing of a cooperation agreement between IDF Latino-Africano and Landesverband Hamburg for 2 years, targeting sustainable social development in Germany and internationally.",
       "category": "Partnership",
-      "imageUrl": "",
+      "imageUrl": "uploads/realisations/images_of_15_nouveau_partenariat_image_of_15_nouveau_partenariat0.jpeg",
       "pdfUrl": "",
       "date": "2025",
       "featured": false
@@ -253,6 +253,18 @@ const staticData = {
       "category": "Diplomacy",
       "imageUrl": "",
       "pdfUrl": "uploads/realisations/22_image_of_22_Invitacion_Arsene_Romaric_Tatsazeu_Kenfack_Delegado_Camerun-xzdmzprG5aCkbrYydPRz43h920qHxi.pdf",
+      "date": "2026",
+      "featured": true
+    },
+    {
+      "id": "23",
+      "title": "Certificat de Formation : Sensibilisation et Prévention de la Traite des Êtres Humains",
+      "titleEn": "Training Certificate: Human Trafficking Awareness and Prevention",
+      "description": "Certificat attestant de la réussite de la formation en ligne sur la sensibilisation et la prévention de la traite des êtres humains. Dispensée par l'IPPDR (Institute of Public Policy and Diplomacy Research) en collaboration avec le U.S. Homeland Security Investigation. Signé par S.E. l'Ambassadeur Dr. Andrise Bass.",
+      "descriptionEn": "Certificate attesting to the successful completion of the online Human Trafficking Awareness and Prevention Training. Provided by the IPPDR (Institute of Public Policy and Diplomacy Research) in collaboration with U.S. Homeland Security Investigation. Signed by H.E. Ambassador Dr. Andrise Bass.",
+      "category": "Certificate",
+      "imageUrl": "uploads/realisations/new_certificate.jpeg",
+      "pdfUrl": "",
       "date": "2026",
       "featured": true
     }
@@ -325,9 +337,9 @@ const staticData = {
   news: [
     {
       "id": "1",
-      "title": "test",
-      "content": "test",
-      "date": "2026-05-19"
+      "title": "Formation : Prévention de la traite des êtres humains",
+      "content": "Le Dr. Arsène Romaric TATSAZEU a complété avec succès la formation en ligne sur la sensibilisation et la prévention de la traite des êtres humains. Dispensée par l'IPPDR en collaboration avec le U.S. Homeland Security Investigation.",
+      "date": "2026-04-30"
     }
   ]
 };
@@ -479,9 +491,17 @@ function renderRealizations() {
   grid.innerHTML = items.map(r => {
     const title = lang === 'en' && r.titleEn ? r.titleEn : r.title;
     const desc = lang === 'en' && r.descriptionEn ? r.descriptionEn : r.description;
-    const imgHtml = r.imageUrl
-      ? `<img src="${assetUrl(r.imageUrl)}" alt="${title}" loading="lazy">`
-      : `<div class="real-card-img-placeholder">${getCategoryIcon(r.category)}</div>`;
+    let imgHtml = '';
+    const previewUrl = r.imageUrl || r.pdfUrl;
+    if (previewUrl) {
+      if (previewUrl.toLowerCase().endsWith('.pdf')) {
+        imgHtml = `<iframe src="${assetUrl(previewUrl)}#toolbar=0&navpanes=0&scrollbar=0&view=FitH" style="width:100%; height:100%; border:none; pointer-events:none; overflow:hidden;" scrolling="no" tabindex="-1"></iframe>`;
+      } else {
+        imgHtml = `<img src="${assetUrl(previewUrl)}" alt="${title}" loading="lazy">`;
+      }
+    } else {
+      imgHtml = `<div class="real-card-img-placeholder">${getCategoryIcon(r.category)}</div>`;
+    }
     const pdfLink = r.pdfUrl
       ? `<a href="${assetUrl(r.pdfUrl)}" target="_blank" class="real-card-link" rel="noopener"><i class="fas fa-file-pdf"></i> ${i18n[lang].view_pdf}</a>` : '';
     const yearBadge = r.date ? `<span class="tag"><i class="fas fa-calendar-alt"></i> ${r.date}</span>` : '';
