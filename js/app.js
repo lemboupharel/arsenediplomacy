@@ -267,6 +267,54 @@ const staticData = {
       "pdfUrl": "",
       "date": "2026",
       "featured": true
+    },
+    {
+      "id": "24",
+      "title": "Bibimbap Festival — Foro Lindbergh, Parque México",
+      "titleEn": "Bibimbap Festival — Foro Lindbergh, Parque México",
+      "description": "Participation au Bibimbap Festival au Foro Lindbergh, Parque México, sur invitation du Conseil Consultatif pour la Réunification Pacifique de la Corée en Amérique Centrale et dans les Caraïbes. Cet événement culturel et sportif a réuni des représentants diplomatiques de plusieurs nations, dont la République tchèque, l'Afrique du Sud, la République de Corée et le Mexique.",
+      "descriptionEn": "Attendance at the Bibimbap Festival at Foro Lindbergh, Parque México, following an invitation from the Advisory Council for the Peaceful Unification of Korea in Central America and the Caribbean. This cultural and sports gathering brought together diplomatic representatives from several nations, including the Czech Republic, South Africa, the Republic of Korea, and Mexico.",
+      "category": "Diplomacy",
+      "imageUrl": "",
+      "pdfUrl": "",
+      "date": "2026",
+      "featured": false
+    },
+    {
+      "id": "25",
+      "title": "Rencontre avec S.E. l'Ambassadeur de Corée du Sud au Mexique",
+      "titleEn": "Meeting with H.E. the Ambassador of South Korea to Mexico",
+      "description": "Rencontre avec Son Excellence Monsieur l'Ambassadeur JOOIL LEE, la Consul Madame EUNJIN LEE et la Présidente Municipale Madame Caroline Garduño.",
+      "descriptionEn": "Meeting with His Excellency Ambassador JOOIL LEE, Consul Mrs. EUNJIN LEE, and Municipal President Mrs. Caroline Garduño.",
+      "category": "Diplomacy",
+      "imageUrl": "uploads/photos/in-image_1.jpg",
+      "pdfUrl": "",
+      "date": "2026",
+      "featured": false
+    },
+    {
+      "id": "26",
+      "title": "Bibimbap Festival — Foro Lindbergh, Parque México",
+      "titleEn": "Bibimbap Festival — Foro Lindbergh, Parque México",
+      "description": "Participation au Bibimbap Festival au Foro Lindbergh, Parque México, sur invitation du Conseil Consultatif pour la Réunification Pacifique de la Corée en Amérique Centrale et dans les Caraïbes. Cet événement culturel et sportif a réuni des représentants diplomatiques de plusieurs nations, dans une atmosphère de paix, d'amitié et de solidarité.",
+      "descriptionEn": "Attendance at the Bibimbap Festival at Foro Lindbergh, Parque México, following an invitation from the Advisory Council for the Peaceful Unification of Korea in Central America and the Caribbean. This cultural and sports gathering brought together diplomatic representatives from several nations in an atmosphere of peace, friendship, and solidarity.",
+      "category": "Diplomacy",
+      "imageUrl": "uploads/photos/in2-image_1.jpg",
+      "pdfUrl": "",
+      "date": "2026",
+      "featured": false
+    },
+    {
+      "id": "27",
+      "title": "United Nations Genève — Réunion",
+      "titleEn": "United Nations Geneva — Meeting",
+      "description": "Réunion à l'Organisation des Nations Unies à Genève, Suisse.",
+      "descriptionEn": "Meeting at the United Nations in Geneva, Switzerland.",
+      "category": "Diplomacy",
+      "imageUrl": "uploads/photos/Untitled.jpg",
+      "pdfUrl": "",
+      "date": "2026",
+      "featured": false
     }
   ],
   albums: [
@@ -305,6 +353,38 @@ const staticData = {
         { "url": "uploads/photos/gallery_028_e1.jpeg", "caption": "" },
         { "url": "uploads/photos/gallery_029_hero_new.jpeg", "caption": "" }
       ]
+    },
+    {
+      "id": "korean-ambassador-meeting",
+      "title": "Rencontre Ambassade de Corée du Sud — Mexique",
+      "description": "Rencontre avec S.E. l'Ambassadeur JOOIL LEE, la Consul EUNJIN LEE et la Présidente Municipale Caroline Garduño.",
+      "photos": [
+        { "url": "uploads/photos/in-image_1.jpg", "caption": "" },
+        { "url": "uploads/photos/in-image_2.jpg", "caption": "" },
+        { "url": "uploads/photos/in-image_3.jpg", "caption": "" }
+      ]
+    },
+    {
+      "id": "bibimbap-festival-2026",
+      "title": "Bibimbap Festival — Foro Lindbergh, Parque México",
+      "description": "Participation au Bibimbap Festival au Foro Lindbergh, Parque México — intercultural dialogue et coopération entre nations.",
+      "photos": [
+        { "url": "uploads/photos/in2-image_1.jpg", "caption": "" },
+        { "url": "uploads/photos/in2-image_2.jpg", "caption": "" },
+        { "url": "uploads/photos/in2-image_3.jpg", "caption": "" },
+        { "url": "uploads/photos/in2-image_4.jpg", "caption": "" },
+        { "url": "uploads/photos/in2-image_5.jpg", "caption": "" },
+        { "url": "uploads/photos/in2-image_6.jpg", "caption": "" },
+        { "url": "uploads/photos/in2-image_7.jpg", "caption": "" },
+        { "url": "uploads/photos/in2-image_8.jpg", "caption": "" },
+        { "url": "uploads/photos/in2-image_9.jpg", "caption": "" },
+        { "url": "uploads/photos/in2-image_10.jpg", "caption": "" },
+        { "url": "uploads/photos/in2-image_11.jpg", "caption": "" },
+        { "url": "uploads/photos/in2-image_12.jpg", "caption": "" },
+        { "url": "uploads/photos/in2-image_13.jpg", "caption": "" },
+        { "url": "uploads/photos/in2-image_14.jpg", "caption": "" },
+        { "url": "uploads/photos/in2-image_15.jpg", "caption": "" }
+      ]
     }
   ],
   videos: [
@@ -332,6 +412,11 @@ const staticData = {
       "title": "Intervention Diplomatique — Mai 2026",
       "description": "Dr. Arsène Romaric TATSAZEU",
       "url": "uploads/videos/video_05_WhatsApp_Video_2026-05-21_at_00.19.50_1_.mp4"
+    },
+    {
+      "title": "Bibimbap Festival — Foro Lindbergh, Parque México",
+      "description": "Dr. Arsène Romaric TATSAZEU — Festival culturel et diplomatique",
+      "url": "uploads/videos/new_event1.mp4"
     }
   ],
   news: [
@@ -340,6 +425,24 @@ const staticData = {
       "title": "Formation : Prévention de la traite des êtres humains",
       "content": "Le Dr. Arsène Romaric TATSAZEU a complété avec succès la formation en ligne sur la sensibilisation et la prévention de la traite des êtres humains. Dispensée par l'IPPDR en collaboration avec le U.S. Homeland Security Investigation.",
       "date": "2026-04-30"
+    },
+    {
+      "id": "2",
+      "title": "Bibimbap Festival — Foro Lindbergh, Parque México",
+      "content": "Participation au Bibimbap Festival au Foro Lindbergh, Parque México, sur invitation du Conseil Consultatif pour la Réunification Pacifique de la Corée en Amérique Centrale et dans les Caraïbes. Événement culturel et sportif réunissant des représentants diplomatiques de plusieurs nations, dans une atmosphère de paix, d'amitié et de solidarité.",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "3",
+      "title": "Rencontre avec S.E. l'Ambassadeur de Corée du Sud au Mexique",
+      "content": "Rencontre avec Son Excellence Monsieur l'Ambassadeur JOOIL LEE, la Consul Madame EUNJIN LEE et la Présidente Municipale Madame Caroline Garduño.",
+      "date": "2026-05-30"
+    },
+    {
+      "id": "4",
+      "title": "United Nations Genève — Réunion",
+      "content": "Réunion à l'Organisation des Nations Unies à Genève, Suisse.",
+      "date": "2026-05-30"
     }
   ]
 };
