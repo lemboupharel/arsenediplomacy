@@ -3,13 +3,18 @@
    Dr. Arsène Romaric TATSAZEU
 ═══════════════════════════════════════ */
 
-// ── Translation Map ───────────────────
+// ── Translation Map (6 UN Languages) ───────────────────
 const i18n = {
   fr: {
     hero_eyebrow:'Diplomate · Éducateur · Entrepreneur',
     hero_subtitle:'Ambassadeur et Envoyé Spécial — Diplomatie Éducative & Coopération Interculturelle (Afrique). Soutenir le développement durable à travers l\'Europe, l\'Asie, l\'Amérique Latine et l\'Afrique par l\'éducation, la diplomatie et la coopération interculturelle.',
     hero_subtitle_mockup:'Ambassadeur et Envoyé Spécial — Diplomatie Éducative & Coopération Interculturelle (Afrique). Soutenir le développement durable à travers l\'Europe, l\'Asie, l\'Amérique Latine et l\'Afrique par l\'éducation, la diplomatie et la coopération interculturelle.',
-    hero_cta1:'Voir mes Réalisations', hero_cta2:'Me Contacter',
+    hero_cta_parcours:'Voir mes Réalisations', hero_cta_contact:'Me Contacter',
+    hero_quote:'« L\'excellence, l\'intégrité et l\'engagement au service du développement humain, de la paix et de la coopération internationale. »',
+    hero_badge_ua:'Envoyé Spécial UA', hero_badge_phd:'PhD Psychologie Sociale', hero_badge_idf:'Fondateur IDF', hero_badge_uno:'Commissions ONU', hero_badge_cont:'3 Continents',
+    hero_caption_name:'Dr. Arsène Romaric TATSAZEU', hero_caption_role:'Diplomate • Expert • Visionnaire',
+    follow_me:'ME SUIVRE', stat_exp:'Années d\'expérience', stat_cont:'Continents engagés', stat_missions:'Missions internationales', stat_dist:'Distinctions & reconnaissances',
+    scroll_down:'Défiler',
     stat_real:'Réalisations Majeures', stat_cont:'Continents', stat_inst:'Institutions Partenaires',
     about_eyebrow:'Parcours & Vision', about_title:'Un Diplomate au Service de la Paix Mondiale',
     about_p1:'Le Dr. Arsène Romaric TATSAZEU est un Ambassadeur d\'envergure internationale, expert en Psychologie Sociale et Entrepreneur visionnaire. Son parcours exceptionnel le place au croisement de la diplomatie éducative, du développement interculturel et de la coopération internationale à l\'échelle de quatre continents (Afrique, Europe, Amérique Latine et Asie).',
@@ -18,6 +23,7 @@ const i18n = {
     f_name:'Nom Complet', f_role:'Rôle Principal', f_domain:'Domaine', f_action:'Champ d\'Action',
     missions_eyebrow:'Engagement Institutionnel', missions_title:'Missions & Fonctions',
     missions_sub:'Une présence active dans les plus grandes institutions diplomatiques et humanitaires mondiales.',
+    mission_web:'Site Web',
     real_eyebrow:'Preuves d\'Excellence', real_title:'Réalisations & Certifications',
     real_sub:'Nominations officielles, certificats, publications et reconnaissances institutionnelles.',
     filter_all:'Tous', filter_dip:'Diplomatie', filter_cert:'Certificats', filter_pub:'Publications', filter_part:'Partenariats',
@@ -29,14 +35,22 @@ const i18n = {
     contact_eyebrow:'Prise de Contact', contact_title:'Travailler Ensemble',
     contact_sub:'Disponible pour des missions diplomatiques, conférences et collaborations stratégiques.',
     contact_form_h:'Envoyer un Message',
+    cf_name:'Votre nom complet', cf_email:'Votre adresse email', cf_subject:'Objet de votre message', cf_message:'Votre message…',
+    send_whatsapp:'Envoyer via WhatsApp', contact_linkedin:'Contacter sur LinkedIn',
     view_pdf:'Consulter le PDF →', view_doc:'Voir Document →', view_cert:'Voir Certificat →',
-    no_results:'Aucun résultat trouvé.', loading:'Chargement…'
+    no_results:'Aucun résultat trouvé.', loading_real:'Chargement des réalisations…', loading_gal:'Chargement de la galerie…', loading_vid:'Chargement des vidéos…', loading_news:'Chargement des actualités…',
+    footer_copy:'© 2026 Dr. Arsène Romaric TATSAZEU · Tous droits réservés', footer_home:'Accueil', footer_about:'Parcours', footer_contact:'Contact'
   },
   en: {
     hero_eyebrow:'Diplomat · Educator · Entrepreneur',
     hero_subtitle:'Ambassador and Special Envoy — Educational Diplomacy & Intercultural Cooperation (Africa). Supporting sustainable development across Europe, Asia, Latin America and Africa through education, diplomacy and intercultural cooperation.',
     hero_subtitle_mockup:'Ambassador and Special Envoy — Educational Diplomacy & Intercultural Cooperation (Africa). Supporting sustainable development across Europe, Asia, Latin America and Africa through education, diplomacy and intercultural cooperation.',
-    hero_cta1:'View My Work', hero_cta2:'Get in Touch',
+    hero_cta_parcours:'View My Work', hero_cta_contact:'Get in Touch',
+    hero_quote:'« Excellence, integrity and commitment in service of human development, peace and international cooperation. »',
+    hero_badge_ua:'UA Special Envoy', hero_badge_phd:'PhD Social Psychology', hero_badge_idf:'IDF Founder', hero_badge_uno:'UN Commissions', hero_badge_cont:'3 Continents',
+    hero_caption_name:'Dr. Arsène Romaric TATSAZEU', hero_caption_role:'Diplomat • Expert • Visionary',
+    follow_me:'FOLLOW ME', stat_exp:'Years of Experience', stat_cont:'Engaged Continents', stat_missions:'International Missions', stat_dist:'Distinctions & Recognitions',
+    scroll_down:'Scroll',
     stat_real:'Major Achievements', stat_cont:'Continents', stat_inst:'Partner Institutions',
     about_eyebrow:'Biography & Vision', about_title:'A Diplomat in Service of World Peace',
     about_p1:'Dr. Arsène Romaric TATSAZEU is an Ambassador of international stature, Social Psychology Expert and visionary entrepreneur. His exceptional journey places him at the crossroads of educational diplomacy, intercultural development and international cooperation across four continents (Africa, Europe, Latin America and Asia).',
@@ -45,6 +59,7 @@ const i18n = {
     f_name:'Full Name', f_role:'Primary Role', f_domain:'Domain', f_action:'Area of Action',
     missions_eyebrow:'Institutional Engagement', missions_title:'Missions & Roles',
     missions_sub:'An active presence in the world\'s leading diplomatic and humanitarian institutions.',
+    mission_web:'Website',
     real_eyebrow:'Proof of Excellence', real_title:'Realizations & Certifications',
     real_sub:'Official nominations, certificates, publications and institutional recognitions.',
     filter_all:'All', filter_dip:'Diplomacy', filter_cert:'Certificates', filter_pub:'Publications', filter_part:'Partnerships',
@@ -56,8 +71,155 @@ const i18n = {
     contact_eyebrow:'Get In Touch', contact_title:'Let\'s Work Together',
     contact_sub:'Available for diplomatic missions, conferences, strategic collaborations and institutional expertise.',
     contact_form_h:'Send a Message',
+    cf_name:'Your full name', cf_email:'Your email address', cf_subject:'Message subject', cf_message:'Your message…',
+    send_whatsapp:'Send via WhatsApp', contact_linkedin:'Contact on LinkedIn',
     view_pdf:'View PDF →', view_doc:'View Document →', view_cert:'View Certificate →',
-    no_results:'No results found.', loading:'Loading…'
+    no_results:'No results found.', loading_real:'Loading realizations…', loading_gal:'Loading gallery…', loading_vid:'Loading videos…', loading_news:'Loading news…',
+    footer_copy:'© 2026 Dr. Arsène Romaric TATSAZEU · All rights reserved', footer_home:'Home', footer_about:'About', footer_contact:'Contact'
+  },
+  es: {
+    hero_eyebrow:'Diplomático · Educador · Emprendedor',
+    hero_subtitle:'Embajador y Enviado Especial — Diplomacia Educativa y Cooperación Intercultural (África). Apoyando el desarrollo sostenible en Europa, Asia, América Latina y África a través de la educación, la diplomacia y la cooperación intercultural.',
+    hero_subtitle_mockup:'Embajador y Enviado Especial — Diplomacia Educativa y Cooperación Intercultural (África). Apoyando el desarrollo sostenible en Europa, Asia, América Latina y África a través de la educación, la diplomacia y la cooperación intercultural.',
+    hero_cta_parcours:'Ver Mi Trabajo', hero_cta_contact:'Contáctame',
+    hero_quote:'« La excelencia, la integridad y el compromiso al servicio del desarrollo humano, la paz y la cooperación internacional. »',
+    hero_badge_ua:'Enviado Especial UA', hero_badge_phd:'PhD Psicología Social', hero_badge_idf:'Fundador IDF', hero_badge_uno:'Comisiones ONU', hero_badge_cont:'3 Continentes',
+    hero_caption_name:'Dr. Arsène Romaric TATSAZEU', hero_caption_role:'Diplomático • Experto • Visionario',
+    follow_me:'SEGUIRME', stat_exp:'Años de experiencia', stat_cont:'Continentes comprometidos', stat_missions:'Misiones internacionales', stat_dist:'Distinciones y reconocimientos',
+    scroll_down:'Desplazar',
+    stat_real:'Logros Importantes', stat_cont:'Continentes', stat_inst:'Instituciones Asociadas',
+    about_eyebrow:'Biografía y Visión', about_title:'Un Diplomático al Servicio de la Paz Mundial',
+    about_p1:'El Dr. Arsène Romaric TATSAZEU es un Embajador de estatura internacional, experto en Psicología Social y emprendedor visionario. Su trayectoria excepcional lo sitúa en la encrucijada de la diplomacia educativa, el desarrollo intercultural y la cooperación internacional en cuatro continentes (África, Europa, América Latina y Asia).',
+    about_p2:'Como fundador de la International Diaspora Foundation (IDF) Latino-Africano, moviliza a la diáspora africana e hispana al servicio del desarrollo sostenible, la paz y la educación.',
+    about_cta:'Explorar mi trabajo →',
+    f_name:'Nombre Completo', f_role:'Rol Principal', f_domain:'Dominio', f_action:'Área de Acción',
+    missions_eyebrow:'Compromiso Institucional', missions_title:'Misiones y Funciones',
+    missions_sub:'Una presencia activa en las principales instituciones diplomáticas y humanitarias del mundo.',
+    mission_web:'Sitio Web',
+    real_eyebrow:'Prueba de Excelencia', real_title:'Realizaciones y Certificaciones',
+    real_sub:'Nominaciones oficiales, certificados, publicaciones y reconocimientos institucionales.',
+    filter_all:'Todos', filter_dip:'Diplomacia', filter_cert:'Certificados', filter_pub:'Publicaciones', filter_part:'Asociaciones',
+    search_ph:'Buscar...',
+    gal_eyebrow:'Momentos Diplomáticos', gal_title:'Galería de Fotos', gal_sub:'Conferencias, eventos, ceremonias y misiones en cuatro continentes.',
+    vid_eyebrow:'Centro de Medios de Video', vid_title:'Discursos e Intervenciones', vid_sub:'Conferencias internacionales, entrevistas y presentaciones oficiales.',
+    part_eyebrow:'Red Internacional', part_title:'Instituciones Asociadas',
+    news_eyebrow:'Noticias y Comunicados', news_title:'Últimas Actividades',
+    contact_eyebrow:'Póngase en Contacto', contact_title:'Trabajemos Juntos',
+    contact_sub:'Disponible para misiones diplomáticas, conferencias, colaboraciones estratégicas y experiencia institucional.',
+    contact_form_h:'Enviar un Mensaje',
+    cf_name:'Su nombre completo', cf_email:'Su dirección de correo', cf_subject:'Asunto del mensaje', cf_message:'Su mensaje…',
+    send_whatsapp:'Enviar vía WhatsApp', contact_linkedin:'Contactar en LinkedIn',
+    view_pdf:'Ver PDF →', view_doc:'Ver Documento →', view_cert:'Ver Certificado →',
+    no_results:'No se encontraron resultados.', loading_real:'Cargando realizaciones…', loading_gal:'Cargando galería…', loading_vid:'Cargando videos…', loading_news:'Cargando noticias…',
+    footer_copy:'© 2026 Dr. Arsène Romaric TATSAZEU · Todos los derechos reservados', footer_home:'Inicio', footer_about:'Acerca de', footer_contact:'Contacto'
+  },
+  ar: {
+    hero_eyebrow:'دبلوماسي · معلم · رائد أعمال',
+    hero_subtitle:'سفير ومبعوث خاص — الدبلوماسية التعليمية والتعاون بين الثقافات (أفريقيا). دعم التنمية المستدامة في أوروبا وآسيا وأمريكا اللاتينية وأفريقيا من خلال التعليم والدبلوماسية والتعاون بين الثقافات.',
+    hero_subtitle_mockup:'سفير ومبعوث خاص — الدبلوماسية التعليمية والتعاون بين الثقافات (أفريقيا). دعم التنمية المستدامة في أوروبا وآسيا وأمريكا اللاتينية وأفريقيا من خلال التعليم والدبلوماسية والتعاون بين الثقافات.',
+    hero_cta_parcours:'عرض عملي', hero_cta_contact:'تواصل معي',
+    hero_quote:'« التميز والنزاهة والالتزام في خدمة التنمية البشرية والسلام والتعاون الدولي. »',
+    hero_badge_ua:'مبعوث خاص UA', hero_badge_phd:'دكتوراه علم النفس الاجتماعي', hero_badge_idf:'مؤسس IDF', hero_badge_uno:'لجان الأمم المتحدة', hero_badge_cont:'3 قارات',
+    hero_caption_name:'الدكتور أرسين روماريك تاتازو', hero_caption_role:'دبلوماسي • خبير • رؤيوي',
+    follow_me:'تابعني', stat_exp:'سنوات الخبرة', stat_cont:'القارات المشاركة', stat_missions:'المهام الدولية', stat_dist:'التميز والاعترافات',
+    scroll_down:'تمرير',
+    stat_real:'الإنجازات الرئيسية', stat_cont:'القارات', stat_inst:'المؤسسات الشريكة',
+    about_eyebrow:'السيرة الذاتية والرؤية', about_title:'دبلوماسي في خدمة السلام العالمي',
+    about_p1:'الدكتور أرسين روماريك تاتازو هو سفير ذو مكانة دولية وخبير في علم النفس الاجتماعي ورائد أعمال ذو رؤية. مساره الاستثنائي يضعه عند تقاطع الدبلوماسية التعليمية والتنمية بين الثقافات والتعاون الدولي عبر أربع قارات (أفريقيا وأوروبا وأمريكا اللاتينية وآسيا).',
+    about_p2:'بصفته مؤسس مؤسسة الشتات الدولية (IDF) اللاتينية الأفريقية، فهو يعمل على mobilizar الشتات الأفريقي والإسباني لخدمة التنمية المستدامة والسلام والتعليم.',
+    about_cta:'استكشف عملي →',
+    f_name:'الاسم الكامل', f_role:'الدور الرئيسي', f_domain:'المجال', f_action:'مجال العمل',
+    missions_eyebrow:'الالتزام المؤسسي', missions_title:'المهام والوظائف',
+    missions_sub:'حضور نشط في المؤسسات الدبلوماسية والإنسانية الرائدة في العالم.',
+    mission_web:'الموقع الإلكتروني',
+    real_eyebrow:'دليل على التميز', real_title:'الإنجازات والشهادات',
+    real_sub:'الترشيحات الرسمية والشهادات والمنشورات والاعترافات المؤسسية.',
+    filter_all:'الكل', filter_dip:'الدبلوماسية', filter_cert:'الشهادات', filter_pub:'المنشورات', filter_part:'الشراكات',
+    search_ph:'بحث...',
+    gal_eyebrow:'لحظات دبلوماسية', gal_title:'معرض الصور', gal_sub:'المؤتمرات والفعاليات والاحتفالات والمهام عبر أربع قارات.',
+    vid_eyebrow:'مركز وسائط الفيديو', vid_title:'الخطب والتدخلات', vid_sub:'المؤتمرات الدولية والمقابلات والعروض التقديمية الرسمية.',
+    part_eyebrow:'الشبكة الدولية', part_title:'المؤسسات الشريكة',
+    news_eyebrow:'الأخبار والبيانات', news_title:'أحدث الأنشطة',
+    contact_eyebrow:'التواصل', contact_title:'لنعمل معاً',
+    contact_sub:'متاح للمهام الدبلوماسية والمؤتمرات والتعاون الاستراتيجي والخبرة المؤسسية.',
+    contact_form_h:'إرسال رسالة',
+    cf_name:'الاسم الكامل', cf_email:'عنوان البريد الإلكتروني', cf_subject:'موضوع الرسالة', cf_message:'رسالتك…',
+    send_whatsapp:'إرسال عبر واتساب', contact_linkedin:'التواصل عبر لينكد إن',
+    view_pdf:'عرض PDF →', view_doc:'عرض المستند →', view_cert:'عرض الشهادة →',
+    no_results:'لم يتم العثور على نتائج.', loading_real:'جاري تحميل الإنجازات…', loading_gal:'جاري تحميل المعرض…', loading_vid:'جاري تحميل الفيديوهات…', loading_news:'جاري تحميل الأخبار…',
+    footer_copy:'© 2026 الدكتور أرسين روماريك تاتازو · جميع الحقوق محفوظة', footer_home:'الرئيسية', footer_about:'حول', footer_contact:'اتصل'
+  },
+  zh: {
+    hero_eyebrow:'外交官 · 教育家 · 企业家',
+    hero_subtitle:'大使和特使 — 教育外交与跨文化合作（非洲）。通过教育、外交和跨文化合作支持欧洲、亚洲、拉丁美洲和非洲的可持续发展。',
+    hero_subtitle_mockup:'大使和特使 — 教育外交与跨文化合作（非洲）。通过教育、外交和跨文化合作支持欧洲、亚洲、拉丁美洲和非洲的可持续发展。',
+    hero_cta_parcours:'查看我的工作', hero_cta_contact:'联系我',
+    hero_quote:'« 为人类发展、和平与国际合作服务的卓越、诚信与承诺。 »',
+    hero_badge_ua:'非盟特使', hero_badge_phd:'社会心理学博士', hero_badge_idf:'IDF创始人', hero_badge_uno:'联合国委员会', hero_badge_cont:'3大洲',
+    hero_caption_name:'Arsène Romaric TATSAZEU 博士', hero_caption_role:'外交官 • 专家 • 远见者',
+    follow_me:'关注我', stat_exp:'经验年限', stat_cont:'参与大洲', stat_missions:'国际任务', stat_dist:'荣誉与认可',
+    scroll_down:'滚动',
+    stat_real:'主要成就', stat_cont:'大洲', stat_inst:'合作伙伴机构',
+    about_eyebrow:'传记与愿景', about_title:'为世界和平服务的外交官',
+    about_p1:'Arsène Romaric TATSAZEU 博士是具有国际地位的大使、社会心理学专家和有远见的企业家。他非凡的历程使他处于教育外交、跨文化发展和国际合作的十字路口，跨越四大洲（非洲、欧洲、拉丁美洲和亚洲）。',
+    about_p2:'作为国际侨民基金会（IDF）拉美非洲分会的创始人，他动员非洲和西班牙裔侨民为可持续发展、和平和教育服务。',
+    about_cta:'探索我的工作 →',
+    f_name:'全名', f_role:'主要角色', f_domain:'领域', f_action:'行动领域',
+    missions_eyebrow:'机构参与', missions_title:'任务与职能',
+    missions_sub:'在世界领先的外交和人道主义机构中积极参与。',
+    mission_web:'网站',
+    real_eyebrow:'卓越证明', real_title:'成就与认证',
+    real_sub:'官方提名、证书、出版物和机构认可。',
+    filter_all:'全部', filter_dip:'外交', filter_cert:'证书', filter_pub:'出版物', filter_part:'伙伴关系',
+    search_ph:'搜索...',
+    gal_eyebrow:'外交时刻', gal_title:'照片画廊', gal_sub:'跨越四大洲的会议、活动、仪式和任务。',
+    vid_eyebrow:'视频媒体中心', vid_title:'演讲与发言', vid_sub:'国际会议、采访和官方演示。',
+    part_eyebrow:'国际网络', part_title:'合作伙伴机构',
+    news_eyebrow:'新闻与公告', news_title:'最新活动',
+    contact_eyebrow:'联系', contact_title:'让我们一起工作',
+    contact_sub:'可提供外交任务、会议、战略合作和机构专业知识。',
+    contact_form_h:'发送消息',
+    cf_name:'您的全名', cf_email:'您的电子邮件地址', cf_subject:'消息主题', cf_message:'您的消息…',
+    send_whatsapp:'通过WhatsApp发送', contact_linkedin:'在LinkedIn联系',
+    view_pdf:'查看 PDF →', view_doc:'查看文档 →', view_cert:'查看证书 →',
+    no_results:'未找到结果。', loading_real:'正在加载成就…', loading_gal:'正在加载画廊…', loading_vid:'正在加载视频…', loading_news:'正在加载新闻…',
+    footer_copy:'© 2026 Arsène Romaric TATSAZEU 博士 · 版权所有', footer_home:'首页', footer_about:'关于', footer_contact:'联系'
+  },
+  ru: {
+    hero_eyebrow:'Дипломат · Педагог · Предприниматель',
+    hero_subtitle:'Посол и Специальный посланник — Образовательная дипломатия и межкультурное сотрудничество (Африка). Поддержка устойчивого развития в Европе, Азии, Латинской Америке и Африке через образование, дипломатию и межкультурное сотрудничество.',
+    hero_subtitle_mockup:'Посол и Специальный посланник — Образовательная дипломатия и межкультурное сотрудничество (Африка). Поддержка устойчивого развития в Европе, Азии, Латинской Америке и Африке через образование, дипломатию и межкультурное сотрудничество.',
+    hero_cta_parcours:'Посмотреть мою работу', hero_cta2:'Связаться со мной',
+    hero_quote:'« Превосходство, честность и приверженность служению человеческому развитию, миру и международному сотрудничеству. »',
+    hero_badge_ua:'Специальный посланник АС', hero_badge_phd:'PhD Социальная психология', hero_badge_idf:'Основатель IDF', hero_badge_uno:'Комиссии ООН', hero_badge_cont:'3 континента',
+    hero_caption_name:'Доктор Арсен Ромарик Татазеу', hero_caption_role:'Дипломат • Эксперт • Визионер',
+    follow_me:'ПОДПИСАТЬСЯ', stat_exp:'Лет опыта', stat_cont:'Задействованные континенты', stat_missions:'Международные миссии', stat_dist:'Отличия и признания',
+    scroll_down:'Прокрутить',
+    stat_real:'Крупные достижения', stat_cont:'Континенты', stat_inst:'Партнерские организации',
+    about_eyebrow:'Биография и видение', about_title:'Дипломат на службе мирового мира',
+    about_p1:'Доктор Арсен Ромарик Татазеу — посол международного масштаба, эксперт по социальной психологии и дальновидный предприниматель. Его исключительный путь ставит его на перекресток образовательной дипломатии, межкультурного развития и международного сотрудничества на четырех континентах (Африка, Европа, Латинская Америка и Азия).',
+    about_p2:'Как основатель Международного фонда диаспоры (IDF) Латиноамериканско-Африканского, он мобилизует африканскую и испаноязычную диаспору на службу устойчивому развитию, миру и образованию.',
+    about_cta:'Изучить мою работу →',
+    f_name:'Полное имя', f_role:'Основная роль', f_domain:'Сфера', f_action:'Область деятельности',
+    missions_eyebrow:'Институциональное участие', missions_title:'Миссии и функции',
+    missions_sub:'Активное присутствие в ведущих дипломатических и гуманитарных учреждениях мира.',
+    mission_web:'Веб-сайт',
+    real_eyebrow:'Доказательство превосходства', real_title:'Достижения и сертификаты',
+    real_sub:'Официальные номинации, сертификаты, публикации и институциональные признания.',
+    filter_all:'Все', filter_dip:'Дипломатия', filter_cert:'Сертификаты', filter_pub:'Публикации', filter_part:'Партнерства',
+    search_ph:'Поиск...',
+    gal_eyebrow:'Дипломатические моменты', gal_title:'Фотогалерея', gal_sub:'Конференции, мероприятия, церемонии и миссии на четырех континентах.',
+    vid_eyebrow:'Видеомедиа центр', vid_title:'Речи и выступления', vid_sub:'Международные конференции, интервью и официальные презентации.',
+    part_eyebrow:'Международная сеть', part_title:'Партнерские организации',
+    news_eyebrow:'Новости и пресс-релизы', news_title:'Последние действия',
+    contact_eyebrow:'Связаться', contact_title:'Давайте работать вместе',
+    contact_sub:'Доступен для дипломатических миссий, конференций, стратегического сотрудничества и институциональной экспертизы.',
+    contact_form_h:'Отправить сообщение',
+    cf_name:'Ваше полное имя', cf_email:'Ваш адрес электронной почты', cf_subject:'Тема сообщения', cf_message:'Ваше сообщение…',
+    send_whatsapp:'Отправить через WhatsApp', contact_linkedin:'Связаться в LinkedIn',
+    view_pdf:'Просмотреть PDF →', view_doc:'Просмотреть документ →', view_cert:'Просмотреть сертификат →',
+    no_results:'Результаты не найдены.', loading_real:'Загрузка достижений…', loading_gal:'Загрузка галереи…', loading_vid:'Загрузка видео…', loading_news:'Загрузка новостей…',
+    footer_copy:'© 2026 Доктор Арсен Ромарик Татазеу · Все права защищены', footer_home:'Главная', footer_about:'О нас', footer_contact:'Контакт'
   }
 };
 
@@ -107,7 +269,7 @@ const staticData = {
       "description": "Participation officielle de l'IDF à la session de la Commission des Stupéfiants de l'ONU à Vienne (CND), représentée par le Dr. TATSAZEU. Listée dans les documents officiels de l'ONUDC.",
       "descriptionEn": "Official IDF participation at the UN Commission on Narcotic Drugs in Vienna (CND), represented by Dr. TATSAZEU. Listed in official UNODC documents.",
       "category": "Diplomacy",
-      "imageUrl": "",
+      "imageUrl": "uploads/photos/Untitled.jpg",
       "pdfUrl": "",
       "date": "2025",
       "featured": false
@@ -275,7 +437,7 @@ const staticData = {
       "description": "Participation au Bibimbap Festival au Foro Lindbergh, Parque México, sur invitation du Conseil Consultatif pour la Réunification Pacifique de la Corée en Amérique Centrale et dans les Caraïbes. Cet événement culturel et sportif a réuni des représentants diplomatiques de plusieurs nations, dont la République tchèque, l'Afrique du Sud, la République de Corée et le Mexique.",
       "descriptionEn": "Attendance at the Bibimbap Festival at Foro Lindbergh, Parque México, following an invitation from the Advisory Council for the Peaceful Unification of Korea in Central America and the Caribbean. This cultural and sports gathering brought together diplomatic representatives from several nations, including the Czech Republic, South Africa, the Republic of Korea, and Mexico.",
       "category": "Diplomacy",
-      "imageUrl": "",
+      "imageUrl": "uploads/photos/in2-image_2.jpg",
       "pdfUrl": "",
       "date": "2026",
       "featured": false
@@ -315,6 +477,18 @@ const staticData = {
       "pdfUrl": "",
       "date": "2026",
       "featured": false
+    },
+    {
+      "id": "28",
+      "title": "Ambassadeur des Diplomates Internationaux — Lettre de Nomination Officielle",
+      "titleEn": "Ambassador of International Diplomats — Official Appointment Letter",
+      "description": "Nomination officielle en tant qu'Ambassadeur des Diplomates Internationaux. Reconnaissance pour le leadership, les qualités de direction et l'engagement à avoir un impact positif.",
+      "descriptionEn": "Official appointment as Ambassador of International Diplomats. Recognition for leadership qualities, dedication, and commitment to making a positive impact.",
+      "category": "Diplomacy",
+      "imageUrl": "",
+      "pdfUrl": "uploads/realisations/Appointment Letter - Dr. Arsene Romaric .pdf",
+      "date": "2026-06-05",
+      "featured": true
     }
   ],
   albums: [
@@ -443,6 +617,12 @@ const staticData = {
       "title": "United Nations Genève — Réunion",
       "content": "Réunion à l'Organisation des Nations Unies à Genève, Suisse.",
       "date": "2026-05-30"
+    },
+    {
+      "id": "5",
+      "title": "Nomination Officielle : Ambassadeur des Diplomates Internationaux",
+      "content": "Le Dr. Arsène Romaric TATSAZEU a été officiellement nommé Ambassadeur des Diplomates Internationaux. Cette nomination reconnaît son leadership, ses qualités de direction et son engagement à avoir un impact positif. Lettre de nomination officielle reçue le 5 juin 2026.",
+      "date": "2026-06-05"
     }
   ]
 };
@@ -457,6 +637,8 @@ function assetUrl(p) {
 // ── State ─────────────────────────────
 let lang = localStorage.getItem('portfolioLang') || 'fr';
 let theme = localStorage.getItem('portfolioTheme') || 'light';
+const supportedLangs = ['fr', 'en', 'es', 'ar', 'zh', 'ru'];
+const langNames = { fr:'FR', en:'EN', es:'ES', ar:'AR', zh:'ZH', ru:'RU' };
 let allRealizations = [];
 let allAlbums = [];
 let allPhotos = [];
@@ -513,31 +695,68 @@ function toggleTheme() {
 // ── Language ──────────────────────────
 function applyLang() {
   document.documentElement.lang = lang;
-  const btn = document.getElementById('langBtn');
-  if (btn) btn.textContent = lang === 'fr' ? 'EN' : 'FR';
+  const langCode = document.getElementById('langCode');
+  if (langCode) langCode.textContent = langNames[lang] || 'FR';
+  // Update active state in dropdown
+  document.querySelectorAll('.lang-dropdown button').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === lang);
+  });
+  // Set direction for Arabic
+  document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.dataset.i18n;
-    if (i18n[lang][key]) el.innerHTML = i18n[lang][key];
+    if (i18n[lang] && i18n[lang][key]) el.innerHTML = i18n[lang][key];
   });
   document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
     const key = el.dataset.i18nPlaceholder;
-    if (i18n[lang][key]) el.placeholder = i18n[lang][key];
+    if (i18n[lang] && i18n[lang][key]) el.placeholder = i18n[lang][key];
   });
   if (allRealizations.length) renderRealizations();
   if (allPhotos.length) renderGallery();
 }
-function toggleLang() {
-  lang = lang === 'fr' ? 'en' : 'fr';
-  localStorage.setItem('portfolioLang', lang);
-  applyLang();
+function changeLanguage(newLang) {
+  if (supportedLangs.includes(newLang)) {
+    lang = newLang;
+    localStorage.setItem('portfolioLang', lang);
+    applyLang();
+    // Close dropdown after selection
+    closeLangDropdown();
+  }
+}
+function toggleLangDropdown() {
+  const dropdown = document.getElementById('langDropdown');
+  const btn = document.getElementById('langBtn');
+  if (dropdown && btn) {
+    const isOpen = dropdown.classList.contains('open');
+    dropdown.classList.toggle('open');
+    btn.setAttribute('aria-expanded', !isOpen);
+  }
+}
+function closeLangDropdown() {
+  const dropdown = document.getElementById('langDropdown');
+  const btn = document.getElementById('langBtn');
+  if (dropdown) dropdown.classList.remove('open');
+  if (btn) btn.setAttribute('aria-expanded', 'false');
 }
 
 // ── Nav ───────────────────────────────
 function initNav() {
   document.getElementById('themeBtn')?.addEventListener('click', toggleTheme);
-  document.getElementById('langBtn')?.addEventListener('click', toggleLang);
+  document.getElementById('langBtn')?.addEventListener('click', toggleLangDropdown);
+  document.querySelectorAll('.lang-dropdown button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      changeLanguage(btn.dataset.lang);
+    });
+  });
   document.getElementById('burgerBtn')?.addEventListener('click', () => {
     document.getElementById('navLinks').classList.toggle('open');
+  });
+  // Close dropdown when clicking outside
+  document.addEventListener('click', (e) => {
+    const selector = document.querySelector('.lang-selector');
+    if (selector && !selector.contains(e.target)) {
+      closeLangDropdown();
+    }
   });
   window.addEventListener('scroll', () => {
     document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60);
@@ -598,15 +817,22 @@ function renderRealizations() {
     const previewUrl = r.imageUrl || r.pdfUrl;
     if (previewUrl) {
       if (previewUrl.toLowerCase().endsWith('.pdf')) {
-        imgHtml = `<iframe src="${assetUrl(previewUrl)}#toolbar=0&navpanes=0&scrollbar=0&view=FitH" style="width:100%; height:100%; border:none; pointer-events:none; overflow:hidden;" scrolling="no" tabindex="-1"></iframe>`;
+        // For PDFs, use iframe preview with fallback to icon
+        imgHtml = `<iframe src="${assetUrl(previewUrl)}#toolbar=0&navpanes=0&scrollbar=0&view=FitH" style="width:100%; height:100%; border:none; pointer-events:none; overflow:hidden;" scrolling="no" tabindex="-1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"></iframe>
+        <div class="real-card-img-placeholder pdf-placeholder" style="display:none"><i class="fas fa-file-pdf"></i></div>`;
       } else {
         imgHtml = `<img src="${assetUrl(previewUrl)}" alt="${title}" loading="lazy">`;
       }
     } else {
       imgHtml = `<div class="real-card-img-placeholder">${getCategoryIcon(r.category)}</div>`;
     }
-    const pdfLink = r.pdfUrl
-      ? `<a href="${assetUrl(r.pdfUrl)}" target="_blank" class="real-card-link" rel="noopener"><i class="fas fa-file-pdf"></i> ${i18n[lang].view_pdf}</a>` : '';
+    // Add view button for both PDFs and images
+    let viewLink = '';
+    if (r.pdfUrl) {
+      viewLink = `<a href="${assetUrl(r.pdfUrl)}" target="_blank" class="real-card-link" rel="noopener"><i class="fas fa-file-pdf"></i> ${i18n[lang].view_pdf}</a>`;
+    } else if (r.imageUrl) {
+      viewLink = `<a href="${assetUrl(r.imageUrl)}" target="_blank" class="real-card-link" rel="noopener"><i class="fas fa-image"></i> ${i18n[lang].view_doc}</a>`;
+    }
     const yearBadge = r.date ? `<span class="tag"><i class="fas fa-calendar-alt"></i> ${r.date}</span>` : '';
     return `
       <article class="real-card fade-in">
@@ -620,7 +846,7 @@ function renderRealizations() {
           <p class="real-card-desc">${desc || ''}</p>
           <div class="real-card-footer">
             ${yearBadge}
-            ${pdfLink}
+            ${viewLink}
           </div>
         </div>
       </article>`;

@@ -83,7 +83,20 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div class="nav-controls">
-        <button id="langBtn" title="Switch to English">EN</button>
+        <div class="lang-selector">
+          <button id="langBtn" aria-label="Select language" aria-expanded="false">
+            <span id="langCode">FR</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="lang-dropdown" id="langDropdown">
+            <button data-lang="fr" data-code="FR">Français</button>
+            <button data-lang="en" data-code="EN">English</button>
+            <button data-lang="es" data-code="ES">Español</button>
+            <button data-lang="ar" data-code="AR">العربية</button>
+            <button data-lang="zh" data-code="ZH">中文</button>
+            <button data-lang="ru" data-code="RU">Русский</button>
+          </div>
+        </div>
         <button id="themeBtn" title="Toggle dark mode"><i class="fas fa-moon"></i></button>
         <button class="nav-burger" id="burgerBtn" aria-label="Menu">
           <span></span><span></span><span></span>
@@ -110,11 +123,11 @@
             Diaspora • Soutenir le développement à travers l'Europe, l'Asie, l'Amérique Latine et l'Afrique.
           </p>
           <div class="hero-badges-wrapper">
-            <span class="mini-badge badge-accent"><i class="fas fa-landmark"></i> Envoyé Spécial UA</span>
-            <span class="mini-badge badge-accent"><i class="fas fa-graduation-cap"></i> PhD Psychologie Sociale</span>
-            <span class="mini-badge badge-accent"><i class="fas fa-users"></i> Fondateur IDF</span>
-            <span class="mini-badge badge-accent"><i class="fas fa-globe"></i> Commissions ONU</span>
-            <span class="mini-badge badge-accent"><i class="fas fa-earth-americas"></i> 3 Continents</span>
+            <span class="mini-badge badge-accent" data-i18n="hero_badge_ua"><i class="fas fa-landmark"></i> Envoyé Spécial UA</span>
+            <span class="mini-badge badge-accent" data-i18n="hero_badge_phd"><i class="fas fa-graduation-cap"></i> PhD Psychologie Sociale</span>
+            <span class="mini-badge badge-accent" data-i18n="hero_badge_idf"><i class="fas fa-users"></i> Fondateur IDF</span>
+            <span class="mini-badge badge-accent" data-i18n="hero_badge_uno"><i class="fas fa-globe"></i> Commissions ONU</span>
+            <span class="mini-badge badge-accent" data-i18n="hero_badge_cont"><i class="fas fa-earth-americas"></i> 3 Continents</span>
           </div>
           <div class="hero-cta-group">
             <a href="#parcours" class="btn btn-primary-gold" data-i18n="hero_cta_parcours">VIEW MY WORK <i
@@ -128,8 +141,8 @@
           <div class="hero-frame">
             <img src="uploads/hero_main.jpeg" alt="Dr. Arsène Romaric TATSAZEU">
             <div class="hero-image-caption">
-              <h3>Dr. Arsène Romaric TATSAZEU</h3>
-              <p>Diplomate • Expert • Visionnaire</p>
+              <h3 data-i18n="hero_caption_name">Dr. Arsène Romaric TATSAZEU</h3>
+              <p data-i18n="hero_caption_role">Diplomate • Expert • Visionnaire</p>
             </div>
           </div>
         </div>
@@ -148,7 +161,7 @@
       <!-- Footer: Socials + Stats -->
       <div class="hero-footer-stats" data-aos="fade-up">
         <div class="follow-us">
-          <span>ME SUIVRE</span>
+          <span data-i18n="follow_me">ME SUIVRE</span>
           <div class="social-icons">
             <a href="https://www.linkedin.com/in/arsene-tatsazeu-677208321/" target="_blank"><i
                 class="fab fa-linkedin-in"></i></a>
@@ -160,27 +173,27 @@
         <div class="stats-glass-card">
           <div class="stat-item">
             <span class="stat-icon"><i class="fas fa-briefcase"></i></span>
-            <div><span class="stat-num">20+</span><small>Années d'expérience</small></div>
+            <div><span class="stat-num">20+</span><small data-i18n="stat_exp">Années d'expérience</small></div>
           </div>
           <div class="vertical-divider"></div>
           <div class="stat-item">
             <span class="stat-icon"><i class="fas fa-globe"></i></span>
-            <div><span class="stat-num">3</span><small>Continents engagés</small></div>
+            <div><span class="stat-num">3</span><small data-i18n="stat_cont">Continents engagés</small></div>
           </div>
           <div class="vertical-divider"></div>
           <div class="stat-item">
             <span class="stat-icon"><i class="fas fa-users-viewfinder"></i></span>
-            <div><span class="stat-num">50+</span><small>Missions internationales</small></div>
+            <div><span class="stat-num">50+</span><small data-i18n="stat_missions">Missions internationales</small></div>
           </div>
           <div class="vertical-divider"></div>
           <div class="stat-item">
             <span class="stat-icon"><i class="fas fa-medal"></i></span>
-            <div><span class="stat-num">15+</span><small>Distinctions & reconnaissances</small></div>
+            <div><span class="stat-num">15+</span><small data-i18n="stat_dist">Distinctions & reconnaissances</small></div>
           </div>
         </div>
       </div>
     </div>
-    <div class="scroll-cue">Défiler</div>
+    <div class="scroll-cue" data-i18n="scroll_down">Défiler</div>
   </section>
 
   <!-- ══════════════════ ABOUT ══════════════════ -->
@@ -254,7 +267,7 @@
             Promotion de la diplomatie éducative et des partenariats interculturels.</p>
           <span class="mission-tag">Active</span>
           <a href="https://eurasiaafrochamberofcommerce.com/" target="_blank" class="btn btn-ghost btn-xs mt-16"><i
-              class="fas fa-external-link-alt"></i> Site Web</a>
+              class="fas fa-external-link-alt"></i> <span data-i18n="mission_web">Site Web</span></a>
         </div>
         <div class="mission-card fade-in">
           <div class="mission-icon"><img src="https://www.google.com/s2/favicons?sz=64&domain=ong-idf.org"
@@ -265,7 +278,7 @@
             latino-américaine pour le développement durable et la paix mondiale.</p>
           <span class="mission-tag">Founder</span>
           <a href="https://ong-idf.org/" target="_blank" class="btn btn-ghost btn-xs mt-16"><i
-              class="fas fa-external-link-alt"></i> Site Web</a>
+              class="fas fa-external-link-alt"></i> <span data-i18n="mission_web">Site Web</span></a>
         </div>
         <div class="mission-card fade-in">
           <div class="mission-icon"><img
@@ -277,7 +290,7 @@
             Commission de la Condition de la Femme (NY).</p>
           <span class="mission-tag">UN Bodies</span>
           <a href="https://humanitarianfocusfoundation.org/" target="_blank" class="btn btn-ghost btn-xs mt-16"><i
-              class="fas fa-external-link-alt"></i> Site Web</a>
+              class="fas fa-external-link-alt"></i> <span data-i18n="mission_web">Site Web</span></a>
         </div>
         <div class="mission-card fade-in">
           <div class="mission-icon"><img src="https://www.google.com/s2/favicons?sz=64&domain=goedfa.org"
@@ -288,7 +301,7 @@
             institutionnelles.</p>
           <span class="mission-tag">Appointed</span>
           <a href="https://goedfa.org" target="_blank" class="btn btn-ghost btn-xs mt-16"><i
-              class="fas fa-external-link-alt"></i> Site Web</a>
+              class="fas fa-external-link-alt"></i> <span data-i18n="mission_web">Site Web</span></a>
         </div>
         <div class="mission-card fade-in">
           <div class="mission-icon"><img
@@ -300,7 +313,7 @@
             (GMF), FMM, FCD et Landesverband Hamburg pour le développement social durable.</p>
           <span class="mission-tag">Partnerships</span>
           <a href="https://www.gandhimandelafoundation.com/" target="_blank" class="btn btn-ghost btn-xs mt-16"><i
-              class="fas fa-external-link-alt"></i> Site Web</a>
+              class="fas fa-external-link-alt"></i> <span data-i18n="mission_web">Site Web</span></a>
         </div>
         <div class="mission-card fade-in">
           <div class="mission-icon"><img src="https://www.google.com/s2/favicons?sz=64&domain=globalpeacechain.org"
@@ -311,7 +324,7 @@
             Mexico Summit 2016. Conférencier à de nombreux forums internationaux.</p>
           <span class="mission-tag">Speaker</span>
           <a href="https://globalpeacechain.org" target="_blank" class="btn btn-ghost btn-xs mt-16"><i
-              class="fas fa-external-link-alt"></i> Site Web</a>
+              class="fas fa-external-link-alt"></i> <span data-i18n="mission_web">Site Web</span></a>
         </div>
         <div class="mission-card fade-in">
           <div class="mission-icon"><img
@@ -323,7 +336,7 @@
             académique et le renforcement des compétences professionnelles.</p>
           <span class="mission-tag">CEO</span>
           <a href="https://prepas-internationales.odoo.com/" target="_blank" class="btn btn-ghost btn-xs mt-16"><i
-              class="fas fa-external-link-alt"></i> Site Web</a>
+              class="fas fa-external-link-alt"></i> <span data-i18n="mission_web">Site Web</span></a>
         </div>
       </div>
     </div>
@@ -350,7 +363,7 @@
           data-i18n-placeholder="search_ph">
       </div>
       <div class="cards-grid" id="realizationsGrid">
-        <div class="loading">Chargement des réalisations…</div>
+        <div class="loading" data-i18n="loading_real">Chargement des réalisations…</div>
       </div>
     </div>
   </section>
@@ -367,7 +380,7 @@
         <span class="gold-line gold-line--center"></span>
       </div>
       <div class="gallery-grid mt-32" id="galleryGrid">
-        <div class="loading">Chargement de la galerie…</div>
+        <div class="loading" data-i18n="loading_gal">Chargement de la galerie…</div>
       </div>
     </div>
   </section>
@@ -384,7 +397,7 @@
         <span class="gold-line gold-line--center"></span>
       </div>
       <div class="video-grid mt-32" id="videoGrid">
-        <div class="loading">Chargement des vidéos…</div>
+        <div class="loading" data-i18n="loading_vid">Chargement des vidéos…</div>
       </div>
     </div>
   </section>
@@ -469,6 +482,12 @@
           <span class="badge-name">CDECO</span>
           <span class="badge-role">Executive Committee Member</span>
         </a>
+        <a href="https://internationaldiplomats.org/" target="_blank" class="partner-badge">
+          <span class="badge-icon"><img src="https://www.google.com/s2/favicons?sz=64&domain=internationaldiplomats.org"
+              class="partner-favicon" alt="International Diplomats"></span>
+          <span class="badge-name">International Diplomats</span>
+          <span class="badge-role">Ambassador</span>
+        </a>
       </div>
     </div>
   </section>
@@ -480,7 +499,7 @@
       <h2 class="section-title" data-i18n="news_title">Dernières Activités</h2>
       <span class="gold-line gold-line--center"></span>
       <div class="news-list" id="newsList">
-        <div class="loading">Chargement des actualités…</div>
+        <div class="loading" data-i18n="loading_news">Chargement des actualités…</div>
       </div>
     </div>
   </section>
@@ -534,27 +553,27 @@
             data-i18n="contact_form_h">Envoyer un Message</h3>
           <div class="form-group">
             <input class="form-control" type="text" id="cf-name" placeholder="Votre nom complet"
-              style="background:rgba(255,255,255,.07); border-color:rgba(255,255,255,.15); color:#fff">
+              style="background:rgba(255,255,255,.07); border-color:rgba(255,255,255,.15); color:#fff" data-i18n-placeholder="cf_name">
           </div>
           <div class="form-group">
             <input class="form-control" type="email" id="cf-email" placeholder="Votre adresse email"
-              style="background:rgba(255,255,255,.07); border-color:rgba(255,255,255,.15); color:#fff">
+              style="background:rgba(255,255,255,.07); border-color:rgba(255,255,255,.15); color:#fff" data-i18n-placeholder="cf_email">
           </div>
           <div class="form-group">
             <input class="form-control" type="text" id="cf-subject" placeholder="Objet de votre message"
-              style="background:rgba(255,255,255,.07); border-color:rgba(255,255,255,.15); color:#fff">
+              style="background:rgba(255,255,255,.07); border-color:rgba(255,255,255,.15); color:#fff" data-i18n-placeholder="cf_subject">
           </div>
           <div class="form-group">
             <textarea class="form-control" id="cf-message" rows="4" placeholder="Votre message…"
-              style="background:rgba(255,255,255,.07); border-color:rgba(255,255,255,.15); color:#fff"></textarea>
+              style="background:rgba(255,255,255,.07); border-color:rgba(255,255,255,.15); color:#fff" data-i18n-placeholder="cf_message"></textarea>
           </div>
           <a href="#" id="sendWhatsApp" class="btn btn-primary w-100" style="justify-content:center">
-            <i class="fab fa-whatsapp"></i> Envoyer via WhatsApp
+            <i class="fab fa-whatsapp"></i> <span data-i18n="send_whatsapp">Envoyer via WhatsApp</span>
           </a>
           <a href="https://www.linkedin.com/in/arsene-romaric-tatsazeu-7090b3109/" target="_blank"
             class="btn btn-outline mt-8 w-100"
             style="justify-content:center; border-color:rgba(255,255,255,.3); margin-top:12px">
-            <i class="fab fa-linkedin"></i> Contacter sur LinkedIn
+            <i class="fab fa-linkedin"></i> <span data-i18n="contact_linkedin">Contacter sur LinkedIn</span>
           </a>
         </div>
       </div>
@@ -564,11 +583,11 @@
   <!-- ══════════════════ FOOTER ══════════════════ -->
   <footer id="footer">
     <div class="container footer-inner">
-      <span class="footer-copy">© 2026 Dr. Arsène Romaric TATSAZEU · Tous droits réservés</span>
+      <span class="footer-copy" data-i18n="footer_copy">© 2026 Dr. Arsène Romaric TATSAZEU · Tous droits réservés</span>
       <nav class="footer-links">
-        <a href="#hero">Accueil</a>
-        <a href="#about">Parcours</a>
-        <a href="#contact">Contact</a>
+        <a href="#hero" data-i18n="footer_home">Accueil</a>
+        <a href="#about" data-i18n="footer_about">Parcours</a>
+        <a href="#contact" data-i18n="footer_contact">Contact</a>
       </nav>
     </div>
   </footer>
