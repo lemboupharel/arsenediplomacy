@@ -489,6 +489,90 @@ const staticData = {
       "pdfUrl": "uploads/realisations/Appointment Letter - Dr. Arsene Romaric .pdf",
       "date": "2026-06-05",
       "featured": true
+    },
+    {
+      "id": "29",
+      "title": "Participation à l'IGF Riyadh — Dialogue sur la Gouvernance de l'Internet",
+      "titleEn": "IGF Riyadh Participation — Internet Governance Dialogue",
+      "description": "Participation à l'Internet Governance Forum (IGF) à Riyadh, Arabie Saoudite. Dialogue international sur la gouvernance de l'Internet, la coopération numérique et le développement durable à l'ère du numérique.",
+      "descriptionEn": "Participation in the Internet Governance Forum (IGF) in Riyadh, Saudi Arabia. International dialogue on Internet governance, digital cooperation and sustainable development in the digital age.",
+      "category": "Diplomacy",
+      "imageUrl": "uploads/photos/gallery_030_riyadh_IGF.jpeg",
+      "pdfUrl": "",
+      "date": "2026",
+      "featured": true
+    },
+    {
+      "id": "30",
+      "title": "Réunion à l'Organisation des Nations Unies — Genève, Suisse",
+      "titleEn": "Meeting at the United Nations — Geneva, Switzerland",
+      "description": "Réunion diplomatique à l'Office des Nations Unies à Genève, Suisse. Participation aux travaux des commissions onusiennes et aux sessions de dialogue multilatéral.",
+      "descriptionEn": "Diplomatic meeting at the United Nations Office in Geneva, Switzerland. Participation in UN commission work and multilateral dialogue sessions.",
+      "category": "Diplomacy",
+      "imageUrl": "uploads/photos/gallery_036_geneva_un.jpeg",
+      "pdfUrl": "",
+      "date": "2026",
+      "featured": true
+    },
+    {
+      "id": "31",
+      "title": "Présence à l'Office des Nations Unies — Vienne, Autriche",
+      "titleEn": "Presence at the United Nations Office — Vienna, Austria",
+      "description": "Mission diplomatique à l'Office des Nations Unies à Vienne, Autriche. Engagement dans les sessions des commissions onusiennes et renforcement de la coopération internationale.",
+      "descriptionEn": "Diplomatic mission to the United Nations Office in Vienna, Austria. Engagement in UN commission sessions and strengthening international cooperation.",
+      "category": "Diplomacy",
+      "imageUrl": "uploads/photos/gallery_048_vienna_un.jpeg",
+      "pdfUrl": "",
+      "date": "2026",
+      "featured": true
+    },
+    {
+      "id": "32",
+      "title": "Interview — Vision sur la Paix dans le Monde",
+      "titleEn": "Interview — Vision on World Peace",
+      "description": "Interview exclusive sur la vision du Dr. TATSAZEU pour la paix mondiale, la diplomatie interculturelle et le développement durable à travers les continents.",
+      "descriptionEn": "Exclusive interview on Dr. TATSAZEU's vision for world peace, intercultural diplomacy and sustainable development across continents.",
+      "category": "Publication",
+      "imageUrl": "uploads/photos/gallery_049_interview_paix.jpeg",
+      "pdfUrl": "",
+      "date": "2026",
+      "featured": true
+    },
+    {
+      "id": "33",
+      "title": "Festival Culturel de Metepec 2026 — Coopération Culturelle Internationale",
+      "titleEn": "Metepec Cultural Festival 2026 — International Cultural Cooperation",
+      "description": "Réunion de travail avec les représentants du Centre Culturel de Metepec, État de Mexico, pour l'organisation du Festival Culturel Annuel (13-18 Octobre 2026). Promotion de l'art, du patrimoine et du dialogue interculturel comme pont entre les peuples.",
+      "descriptionEn": "Working meeting with representatives of the Metepec Cultural Center, State of Mexico, for the organization of the Annual Cultural Festival (October 13-18, 2026). Promoting art, heritage and intercultural dialogue as a bridge between peoples.",
+      "category": "Diplomacy",
+      "imageUrl": "uploads/photos/gallery_054_metepec.jpg",
+      "pdfUrl": "",
+      "date": "2026",
+      "featured": true
+    },
+    {
+      "id": "34",
+      "title": "Mission Diplomatique en Albanie — Réunion avec la Vice-Ministre de l'Éducation",
+      "titleEn": "Diplomatic Mission in Albania — Meeting with Deputy Minister of Education",
+      "description": "Mission diplomatique à Tirana, Albanie. Réunion de travail avec Madame Herida Duro, Vice-Ministre de l'Éducation, pour la préparation de la Formation Internationale sur le Protocole Diplomatique et la Lutte Contre la Traite des Êtres Humains (Novembre 2026).",
+      "descriptionEn": "Diplomatic mission to Tirana, Albania. Working meeting with Mrs. Herida Duro, Deputy Minister of Education, for the preparation of the International Training on Diplomatic Protocol and the Fight Against Human Trafficking (November 2026).",
+      "category": "Diplomacy",
+      "imageUrl": "uploads/photos/gallery_057_albania.jpeg",
+      "pdfUrl": "",
+      "date": "2026",
+      "featured": true
+    },
+    {
+      "id": "35",
+      "title": "Visite Officielle à la Municipalité de Viti, Kosovo — Renforcement de la Coopération Internationale",
+      "titleEn": "Official Visit to the Municipality of Viti, Kosovo — Strengthening International Cooperation",
+      "description": "Visite officielle au Kosovo, reçu par Monsieur Sokol Haliti, Maire de la Municipalité de Viti. Préparation du Forum Mondial de la Jeunesse pour la Paix dans le Monde (25-29 Août 2026, Viti, Kosovo). Élaboration de la Déclaration de Viti pour la Paix dans le Monde.",
+      "descriptionEn": "Official visit to Kosovo, received by Mr. Sokol Haliti, Mayor of the Municipality of Viti. Preparation of the World Youth Forum for Peace in the World (August 25-29, 2026, Viti, Kosovo). Development of the Viti Declaration for World Peace.",
+      "category": "Diplomacy",
+      "imageUrl": "",
+      "pdfUrl": "",
+      "date": "2026",
+      "featured": true
     }
   ],
   albums: [
@@ -559,6 +643,100 @@ const staticData = {
         { "url": "uploads/photos/in2-image_14.jpg", "caption": "" },
         { "url": "uploads/photos/in2-image_15.jpg", "caption": "" }
       ]
+    },
+    {
+      "id": "riyadh-igf-2026",
+      "title": "Participation à l'IGF Riyadh — Arabie Saoudite",
+      "description": "Dialogue international sur la gouvernance de l'Internet, la coopération numérique et le développement durable.",
+      "photos": [
+        { "url": "uploads/photos/gallery_030_riyadh_IGF.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_031_riyadh_IGF.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_032_riyadh_IGF.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_033_riyadh_IGF.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_034_riyadh_IGF.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_035_riyadh_IGF.jpeg", "caption": "" }
+      ]
+    },
+    {
+      "id": "geneva-un-2026",
+      "title": "Réunion à l'ONU Genève — Suisse",
+      "description": "Mission diplomatique à l'Office des Nations Unies à Genève. Participation aux commissions onusiennes.",
+      "photos": [
+        { "url": "uploads/photos/gallery_036_geneva_un.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_037_geneva_un.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_038_geneva_un.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_039_geneva_un.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_040_geneva_un.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_041_geneva_un.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_042_geneva_un.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_043_geneva_un.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_044_geneva_un.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_045_geneva_un.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_046_geneva_un.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_047_geneva_un.jpeg", "caption": "" }
+      ]
+    },
+    {
+      "id": "vienna-un-2026",
+      "title": "Office des Nations Unies — Vienne, Autriche",
+      "description": "Mission diplomatique à l'Office des Nations Unies à Vienne, Autriche.",
+      "photos": [
+        { "url": "uploads/photos/gallery_048_vienna_un.jpeg", "caption": "" }
+      ]
+    },
+    {
+      "id": "interview-paix-2026",
+      "title": "Interview — Vision sur la Paix dans le Monde",
+      "description": "Interview exclusive sur la paix mondiale, la diplomatie interculturelle et le développement durable.",
+      "photos": [
+        { "url": "uploads/photos/gallery_049_interview_paix.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_050_interview_paix.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_051_interview_paix.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_052_interview_paix.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_053_interview_paix.jpeg", "caption": "" }
+      ]
+    },
+    {
+      "id": "metepec-festival-2026",
+      "title": "Festival Culturel de Metepec 2026 — Mexique",
+      "description": "Réunion de travail pour l'organisation du Festival Culturel Annuel de Metepec. Promotion de l'art et du dialogue interculturel.",
+      "photos": [
+        { "url": "uploads/photos/gallery_054_metepec.jpg", "caption": "" },
+        { "url": "uploads/photos/gallery_055_metepec.jpg", "caption": "" },
+        { "url": "uploads/photos/gallery_056_metepec.jpg", "caption": "" }
+      ]
+    },
+    {
+      "id": "albania-mission-2026",
+      "title": "Mission Diplomatique en Albanie — Tirana",
+      "description": "Mission à Tirana avec la Vice-Ministre de l'Éducation pour la Formation Internationale sur le Protocole Diplomatique.",
+      "photos": [
+        { "url": "uploads/photos/gallery_057_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_058_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_059_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_060_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_061_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_062_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_063_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_064_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_065_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_066_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_067_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_068_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_069_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_070_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_071_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_072_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_073_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_074_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_075_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_076_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_077_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_078_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_079_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_080_albania.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_081_albania.jpeg", "caption": "" }
+      ]
     }
   ],
   videos: [
@@ -591,6 +769,16 @@ const staticData = {
       "title": "Bibimbap Festival — Foro Lindbergh, Parque México",
       "description": "Dr. Arsène Romaric TATSAZEU — Festival culturel et diplomatique",
       "url": "uploads/videos/new_event1.mp4"
+    },
+    {
+      "title": "Visite Officielle au Kosovo — Municipalité de Viti (1)",
+      "description": "Dr. Arsène Romaric TATSAZEU — Visite officielle au Kosovo, reçu par le Maire Sokol Haliti",
+      "url": "uploads/videos/video_06_kosovo_visit_1.mp4"
+    },
+    {
+      "title": "Visite Officielle au Kosovo — Municipalité de Viti (2)",
+      "description": "Dr. Arsène Romaric TATSAZEU — Renforcement de la coopération internationale pour la paix",
+      "url": "uploads/videos/video_07_kosovo_visit_2.mp4"
     }
   ],
   news: [
@@ -623,6 +811,36 @@ const staticData = {
       "title": "Nomination Officielle : Ambassadeur des Diplomates Internationaux",
       "content": "Le Dr. Arsène Romaric TATSAZEU a été officiellement nommé Ambassadeur des Diplomates Internationaux. Cette nomination reconnaît son leadership, ses qualités de direction et son engagement à avoir un impact positif. Lettre de nomination officielle reçue le 5 juin 2026.",
       "date": "2026-06-05"
+    },
+    {
+      "id": "6",
+      "title": "Mission Diplomatique en Albanie — Préparation de la Formation Internationale",
+      "content": "Mission diplomatique à Tirana, Albanie. Réunion de travail avec Madame Herida Duro, Vice-Ministre de l'Éducation, pour la préparation de la Formation Internationale sur le Protocole Diplomatique et la Lutte Contre la Traite des Êtres Humains, qui se tiendra en Novembre 2026 à Tirana, sous le patronage du Ministère de l'Éducation.",
+      "date": "2026"
+    },
+    {
+      "id": "7",
+      "title": "Visite Officielle au Kosovo — Forum Mondial de la Jeunesse pour la Paix",
+      "content": "Visite officielle au Kosovo. Réunion avec Monsieur Sokol Haliti, Maire de la Municipalité de Viti, pour la préparation du Forum Mondial de la Jeunesse pour la Paix dans le Monde (25-29 Août 2026, Viti, Kosovo). Élaboration de la Déclaration de Viti pour la Paix dans le Monde, réunissant des délégations de plus de 80 pays.",
+      "date": "2026"
+    },
+    {
+      "id": "8",
+      "title": "Festival Culturel de Metepec 2026 — Coopération Culturelle",
+      "content": "Réunion de travail avec les représentants du Centre Culturel de Metepec, État de Mexico, pour l'organisation du Festival Culturel Annuel de Metepec (13-18 Octobre 2026). Le Dr. Arsène Romaric TATSAZEU a été honoré d'un cadeau symbolique par Madame Carolina Garduño, renforçant le rôle de la culture comme pont entre les peuples.",
+      "date": "2026"
+    },
+    {
+      "id": "9",
+      "title": "Participation à l'IGF Riyadh — Gouvernance de l'Internet",
+      "content": "Participation à l'Internet Governance Forum (IGF) à Riyadh, Arabie Saoudite. Dialogue international sur la gouvernance de l'Internet, la coopération numérique et le développement durable à l'ère du numérique, renforçant l'engagement diplomatique dans les forums technologiques mondiaux.",
+      "date": "2026"
+    },
+    {
+      "id": "10",
+      "title": "Interview Exclusive — Vision sur la Paix dans le Monde",
+      "content": "Interview exclusive du Dr. Arsène Romaric TATSAZEU sur sa vision pour la paix mondiale, la diplomatie interculturelle et le développement durable à travers l'Europe, l'Asie, l'Amérique Latine et l'Afrique.",
+      "date": "2026"
     }
   ]
 };

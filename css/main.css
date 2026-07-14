@@ -1289,7 +1289,7 @@ a.partner-badge { text-decoration: none; }
   .nav-links { display: none; position: fixed; top: 80px; left: 0; right: 0; background: var(--navy-deep); padding: 24px; flex-direction: column; gap: 16px; border-bottom: 1px solid rgba(201,168,76,.1); }
   .nav-links.open { display: flex; }
   .nav-burger { display: flex; }
-  .nav-controls button:not(:last-child) { display: none; }
+  .nav-controls > button:not(:last-child) { display: none; }
 }
 @media (max-width: 768px) {
   .section { padding: 60px 0; }
