@@ -499,7 +499,7 @@ const staticData = {
       "category": "Diplomacy",
       "imageUrl": "uploads/photos/gallery_030_riyadh_IGF.jpeg",
       "pdfUrl": "",
-      "date": "2026",
+      "date": "2026-06-19",
       "featured": true
     },
     {
@@ -511,7 +511,7 @@ const staticData = {
       "category": "Diplomacy",
       "imageUrl": "uploads/photos/gallery_036_geneva_un.jpeg",
       "pdfUrl": "",
-      "date": "2026",
+      "date": "2026-06-21",
       "featured": true
     },
     {
@@ -523,7 +523,7 @@ const staticData = {
       "category": "Diplomacy",
       "imageUrl": "uploads/photos/gallery_048_vienna_un.jpeg",
       "pdfUrl": "",
-      "date": "2026",
+      "date": "2026-06-17",
       "featured": true
     },
     {
@@ -535,7 +535,7 @@ const staticData = {
       "category": "Publication",
       "imageUrl": "uploads/photos/gallery_049_interview_paix.jpeg",
       "pdfUrl": "",
-      "date": "2026",
+      "date": "2026-06-23",
       "featured": true
     },
     {
@@ -547,7 +547,7 @@ const staticData = {
       "category": "Diplomacy",
       "imageUrl": "uploads/photos/gallery_054_metepec.jpg",
       "pdfUrl": "",
-      "date": "2026",
+      "date": "2026-06-20",
       "featured": true
     },
     {
@@ -559,7 +559,7 @@ const staticData = {
       "category": "Diplomacy",
       "imageUrl": "uploads/photos/gallery_057_albania.jpeg",
       "pdfUrl": "",
-      "date": "2026",
+      "date": "2026-06-22",
       "featured": true
     },
     {
@@ -571,7 +571,7 @@ const staticData = {
       "category": "Diplomacy",
       "imageUrl": "",
       "pdfUrl": "",
-      "date": "2026",
+      "date": "2026-06-16",
       "featured": true
     }
   ],
@@ -816,31 +816,31 @@ const staticData = {
       "id": "6",
       "title": "Mission Diplomatique en Albanie — Préparation de la Formation Internationale",
       "content": "Mission diplomatique à Tirana, Albanie. Réunion de travail avec Madame Herida Duro, Vice-Ministre de l'Éducation, pour la préparation de la Formation Internationale sur le Protocole Diplomatique et la Lutte Contre la Traite des Êtres Humains, qui se tiendra en Novembre 2026 à Tirana, sous le patronage du Ministère de l'Éducation.",
-      "date": "2026"
+      "date": "2026-06-22"
     },
     {
       "id": "7",
       "title": "Visite Officielle au Kosovo — Forum Mondial de la Jeunesse pour la Paix",
       "content": "Visite officielle au Kosovo. Réunion avec Monsieur Sokol Haliti, Maire de la Municipalité de Viti, pour la préparation du Forum Mondial de la Jeunesse pour la Paix dans le Monde (25-29 Août 2026, Viti, Kosovo). Élaboration de la Déclaration de Viti pour la Paix dans le Monde, réunissant des délégations de plus de 80 pays.",
-      "date": "2026"
+      "date": "2026-06-16"
     },
     {
       "id": "8",
       "title": "Festival Culturel de Metepec 2026 — Coopération Culturelle",
       "content": "Réunion de travail avec les représentants du Centre Culturel de Metepec, État de Mexico, pour l'organisation du Festival Culturel Annuel de Metepec (13-18 Octobre 2026). Le Dr. Arsène Romaric TATSAZEU a été honoré d'un cadeau symbolique par Madame Carolina Garduño, renforçant le rôle de la culture comme pont entre les peuples.",
-      "date": "2026"
+      "date": "2026-06-20"
     },
     {
       "id": "9",
       "title": "Participation à l'IGF Riyadh — Gouvernance de l'Internet",
       "content": "Participation à l'Internet Governance Forum (IGF) à Riyadh, Arabie Saoudite. Dialogue international sur la gouvernance de l'Internet, la coopération numérique et le développement durable à l'ère du numérique, renforçant l'engagement diplomatique dans les forums technologiques mondiaux.",
-      "date": "2026"
+      "date": "2026-06-19"
     },
     {
       "id": "10",
       "title": "Interview Exclusive — Vision sur la Paix dans le Monde",
       "content": "Interview exclusive du Dr. Arsène Romaric TATSAZEU sur sa vision pour la paix mondiale, la diplomatie interculturelle et le développement durable à travers l'Europe, l'Asie, l'Amérique Latine et l'Afrique.",
-      "date": "2026"
+      "date": "2026-06-23"
     }
   ]
 };
