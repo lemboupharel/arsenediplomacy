@@ -329,7 +329,7 @@ h1, h2, h3, h4 { font-family: var(--font-serif); line-height: 1.2; }
 }
 .hero-bg {
   position: absolute; inset: 0;
-  background: url('/uploads/hero_main.jpeg') center 20% / cover no-repeat;
+  background: url('https://cdn.jsdelivr.net/gh/lemboupharel/arsenediplomacy@main/uploads/hero_main.jpeg') center 20% / cover no-repeat;
   transform: scaleX(-1);
   filter: brightness(.4);
   transition: transform 8s ease;

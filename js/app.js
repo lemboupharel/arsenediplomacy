@@ -846,7 +846,7 @@ const staticData = {
 };
 
 // ── Asset URL helper ──────────────────
-const ASSETS_BASE = 'https://lemboupharel.github.io/arsenediplomacy';
+const ASSETS_BASE = 'https://cdn.jsdelivr.net/gh/lemboupharel/arsenediplomacy@main';
 
 function assetUrl(p) {
   if (!p) return '';
