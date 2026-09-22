@@ -846,10 +846,12 @@ const staticData = {
 };
 
 // ── Asset URL helper ──────────────────
+const ASSETS_BASE = 'https://lemboupharel.github.io/arsenediplomacy';
+
 function assetUrl(p) {
   if (!p) return '';
-  if (p.startsWith('http') || p.startsWith('uploads/') || p.startsWith('/')) return p;
-  return 'uploads/' + p;
+  if (p.startsWith('http') || p.startsWith('/')) return p;
+  return ASSETS_BASE + '/' + p;
 }
 
 // ── State ─────────────────────────────
