@@ -39,7 +39,8 @@ const i18n = {
     send_whatsapp:'Envoyer via WhatsApp', contact_linkedin:'Contacter sur LinkedIn',
     view_pdf:'Consulter le PDF →', view_doc:'Voir Document →', view_cert:'Voir Certificat →',
     no_results:'Aucun résultat trouvé.', loading_real:'Chargement des réalisations…', loading_gal:'Chargement de la galerie…', loading_vid:'Chargement des vidéos…', loading_news:'Chargement des actualités…',
-    footer_copy:'© 2026 Dr. Arsène Romaric TATSAZEU · Tous droits réservés', footer_home:'Accueil', footer_about:'Parcours', footer_contact:'Contact'
+    footer_copy:'© 2026 Dr. Arsène Romaric TATSAZEU · Tous droits réservés', footer_home:'Accueil', footer_about:'Parcours', footer_contact:'Contact',
+    featured:'En vedette', photos_count:'{n} photos', empty_gallery:'Galerie non disponible.', empty_videos:'Vidéos non disponibles.', empty_news:'Aucune actualité disponible.', cat_general:'Général'
   },
   en: {
     hero_eyebrow:'Ambassador · Educator · Entrepreneur',
@@ -75,7 +76,8 @@ const i18n = {
     send_whatsapp:'Send via WhatsApp', contact_linkedin:'Contact on LinkedIn',
     view_pdf:'View PDF →', view_doc:'View Document →', view_cert:'View Certificate →',
     no_results:'No results found.', loading_real:'Loading realizations…', loading_gal:'Loading gallery…', loading_vid:'Loading videos…', loading_news:'Loading news…',
-    footer_copy:'© 2026 Dr. Arsène Romaric TATSAZEU · All rights reserved', footer_home:'Home', footer_about:'About', footer_contact:'Contact'
+    footer_copy:'© 2026 Dr. Arsène Romaric TATSAZEU · All rights reserved', footer_home:'Home', footer_about:'About', footer_contact:'Contact',
+    featured:'Featured', photos_count:'{n} photos', empty_gallery:'Gallery not available.', empty_videos:'Videos not available.', empty_news:'No news available.', cat_general:'General'
   },
   es: {
     hero_eyebrow:'Embajador · Educador · Emprendedor',
@@ -111,7 +113,8 @@ const i18n = {
     send_whatsapp:'Enviar vía WhatsApp', contact_linkedin:'Contactar en LinkedIn',
     view_pdf:'Ver PDF →', view_doc:'Ver Documento →', view_cert:'Ver Certificado →',
     no_results:'No se encontraron resultados.', loading_real:'Cargando realizaciones…', loading_gal:'Cargando galería…', loading_vid:'Cargando videos…', loading_news:'Cargando noticias…',
-    footer_copy:'© 2026 Dr. Arsène Romaric TATSAZEU · Todos los derechos reservados', footer_home:'Inicio', footer_about:'Acerca de', footer_contact:'Contacto'
+    footer_copy:'© 2026 Dr. Arsène Romaric TATSAZEU · Todos los derechos reservados', footer_home:'Inicio', footer_about:'Acerca de', footer_contact:'Contacto',
+    featured:'Destacado', photos_count:'{n} fotos', empty_gallery:'Galería no disponible.', empty_videos:'Videos no disponibles.', empty_news:'No hay noticias disponibles.', cat_general:'General'
   },
   ar: {
     hero_eyebrow:'سفير · معلم · رائد أعمال',
@@ -147,7 +150,8 @@ const i18n = {
     send_whatsapp:'إرسال عبر واتساب', contact_linkedin:'التواصل عبر لينكد إن',
     view_pdf:'عرض PDF →', view_doc:'عرض المستند →', view_cert:'عرض الشهادة →',
     no_results:'لم يتم العثور على نتائج.', loading_real:'جاري تحميل الإنجازات…', loading_gal:'جاري تحميل المعرض…', loading_vid:'جاري تحميل الفيديوهات…', loading_news:'جاري تحميل الأخبار…',
-    footer_copy:'© 2026 الدكتور أرسين روماريك تاتازو · جميع الحقوق محفوظة', footer_home:'الرئيسية', footer_about:'حول', footer_contact:'اتصل'
+    footer_copy:'© 2026 الدكتور أرسين روماريك تاتازو · جميع الحقوق محفوظة', footer_home:'الرئيسية', footer_about:'حول', footer_contact:'اتصل',
+    featured:'مميز', photos_count:'{n} صورة', empty_gallery:'المعرض غير متاح.', empty_videos:'الفيديوهات غير متاحة.', empty_news:'لا توجد أخبار متاحة.', cat_general:'عام'
   },
   zh: {
     hero_eyebrow:'大使 · 教育家 · 企业家',
@@ -183,13 +187,14 @@ const i18n = {
     send_whatsapp:'通过WhatsApp发送', contact_linkedin:'在LinkedIn联系',
     view_pdf:'查看 PDF →', view_doc:'查看文档 →', view_cert:'查看证书 →',
     no_results:'未找到结果。', loading_real:'正在加载成就…', loading_gal:'正在加载画廊…', loading_vid:'正在加载视频…', loading_news:'正在加载新闻…',
-    footer_copy:'© 2026 Arsène Romaric TATSAZEU 博士 · 版权所有', footer_home:'首页', footer_about:'关于', footer_contact:'联系'
+    footer_copy:'© 2026 Arsène Romaric TATSAZEU 博士 · 版权所有', footer_home:'首页', footer_about:'关于', footer_contact:'联系',
+    featured:'精选', photos_count:'{n} 张照片', empty_gallery:'画廊不可用。', empty_videos:'视频不可用。', empty_news:'暂无新闻。', cat_general:'综合'
   },
   ru: {
     hero_eyebrow:'Посол · Педагог · Предприниматель',
     hero_subtitle:'Посол и Специальный посланник — Образовательная дипломатия и межкультурное сотрудничество (Африка). Поддержка устойчивого развития в Европе, Азии, Латинской Америке и Африке через образование, дипломатию и межкультурное сотрудничество.',
     hero_subtitle_mockup:'Посол и Специальный посланник — Образовательная дипломатия и межкультурное сотрудничество (Африка). Поддержка устойчивого развития в Европе, Азии, Латинской Америке и Африке через образование, дипломатию и межкультурное сотрудничество.',
-    hero_cta_parcours:'Посмотреть мою работу', hero_cta2:'Связаться со мной',
+    hero_cta_parcours:'Посмотреть мою работу', hero_cta_contact:'Связаться со мной',
     hero_quote:'« Превосходство, честность и приверженность служению человеческому развитию, миру и международному сотрудничеству. »',
     hero_badge_ua:'Специальный посланник АС', hero_badge_idf:'Основатель IDF', hero_badge_uno:'Комиссии ООН', hero_badge_cont:'3 континента',
     hero_caption_name:'Доктор Арсен Ромарик Татазеу', hero_caption_role:'Посол • Эксперт • Визионер',
@@ -219,13 +224,14 @@ const i18n = {
     send_whatsapp:'Отправить через WhatsApp', contact_linkedin:'Связаться в LinkedIn',
     view_pdf:'Просмотреть PDF →', view_doc:'Просмотреть документ →', view_cert:'Просмотреть сертификат →',
     no_results:'Результаты не найдены.', loading_real:'Загрузка достижений…', loading_gal:'Загрузка галереи…', loading_vid:'Загрузка видео…', loading_news:'Загрузка новостей…',
-    footer_copy:'© 2026 Доктор Арсен Ромарик Татазеу · Все права защищены', footer_home:'Главная', footer_about:'О нас', footer_contact:'Контакт'
+    footer_copy:'© 2026 Доктор Арсен Ромарик Татазеу · Все права защищены', footer_home:'Главная', footer_about:'О нас', footer_contact:'Контакт',
+    featured:'Избранное', photos_count:'{n} фото', empty_gallery:'Галерея недоступна.', empty_videos:'Видео недоступны.', empty_news:'Новостей нет.', cat_general:'Общее'
   }
 };
 
 // ── Static Data (embedded instead of API) ───────────────────
 const staticData = {
-  realizations: [
+  "realizations": [
     {
       "id": "1",
       "title": "Member of EACC Global Team — Special Envoy Education Diplomacy & Intercultural Cooperation (Africa)",
@@ -633,434 +639,1620 @@ const staticData = {
       "pdfUrl": "",
       "date": "2026-07-15",
       "featured": false
+    },
+    {
+      "id": "41",
+      "title": "Invitation Officielle — Primer Foro Internacional en Michoacán « Cambiando la Narrativa »",
+      "titleEn": "Official Invitation — First International Forum in Michoacán “Changing the Narrative”",
+      "description": "Invitation officielle de la CONAPRESU (Coalición Internacional, Nacional y Estatal de Prevención del Suicidio) à participer au Primer Foro Internacional en Michoacán, le 18 septembre 2026 à l'Universidad Don Vasco, Uruapan, Michoacán, Mexique. Thème : promotion de la santé mentale et prévention du suicide.",
+      "descriptionEn": "Official invitation from CONAPRESU (International, National and State Coalition for Suicide Prevention) to participate in the First International Forum in Michoacán, on September 18, 2026 at Universidad Don Vasco, Uruapan, Michoacán, Mexico. Theme: mental health promotion and suicide prevention.",
+      "category": "Diplomacy",
+      "imageUrl": "",
+      "pdfUrl": "uploads/realisations/41_invitacion_conapresu_michoacan.pdf",
+      "date": "2026-09-18",
+      "featured": true
     }
   ],
-  albums: [
+  "albums": [
     {
       "id": "default",
       "title": "Missions & Moments Diplomatiques",
+      "titleEn": "Diplomatic Missions & Moments",
+      "descriptionEn": "Conferences, events and official missions across three continents.",
+      "titleEs": "Misiones y Momentos Diplomáticos",
+      "descriptionEs": "Conferencias, eventos y misiones oficiales en tres continentes.",
+      "titleAr": "المهام واللحظات الدبلوماسية",
+      "descriptionAr": "مؤتمرات وأحداث ومهام رسمية عبر ثلاث قارات.",
+      "titleZh": "外交使命与时刻",
+      "descriptionZh": "横跨三大洲的会议、活动与正式访问。",
+      "titleRu": "Дипломатические миссии и моменты",
+      "descriptionRu": "Конференции, события и официальные миссии на трёх континентах.",
       "description": "Conférences, événements et missions officielles sur trois continents.",
+      "date": "2026-05-16",
       "photos": [
-        { "url": "uploads/photos/gallery_001_1.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_002_2.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_003_3.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_004_4.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_005_5.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_006_6.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_007_WhatsApp_Image_2026-05-16_at_18.02.40.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_008_WhatsApp_Image_2026-05-16_at_18.02.48.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_009_WhatsApp_Image_2026-05-16_at_18.02.49_1_.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_010_WhatsApp_Image_2026-05-16_at_18.02.49.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_011_WhatsApp_Image_2026-05-16_at_18.02.50.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_012_WhatsApp_Image_2026-05-16_at_18.03.03.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_013_WhatsApp_Image_2026-05-16_at_18.03.04_1_.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_014_WhatsApp_Image_2026-05-16_at_18.03.04.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_015_WhatsApp_Image_2026-05-16_at_18.03.05_1_.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_016_WhatsApp_Image_2026-05-16_at_18.03.05_2_.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_017_WhatsApp_Image_2026-05-16_at_18.03.05_3_.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_018_WhatsApp_Image_2026-05-16_at_18.03.05_4_.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_019_WhatsApp_Image_2026-05-16_at_18.03.05_5_.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_020_WhatsApp_Image_2026-05-16_at_18.03.05.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_021_WhatsApp_Image_2026-05-16_at_18.03.06.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_022_WhatsApp_Image_2026-05-16_at_18.09.36_1_.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_023_WhatsApp_Image_2026-05-16_at_18.09.36_2_.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_024_WhatsApp_Image_2026-05-16_at_18.09.36_3_.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_025_WhatsApp_Image_2026-05-16_at_18.09.36.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_026_WhatsApp_Image_2026-05-16_at_18.09.37.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_027_WhatsApp_Image_2026-05-16_at_18.09.38.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_028_e1.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_029_hero_new.jpeg", "caption": "" }
+        {
+          "url": "uploads/photos/gallery_001_1.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_002_2.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_003_3.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_004_4.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_005_5.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_006_6.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_007_WhatsApp_Image_2026-05-16_at_18.02.40.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_008_WhatsApp_Image_2026-05-16_at_18.02.48.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_009_WhatsApp_Image_2026-05-16_at_18.02.49_1_.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_010_WhatsApp_Image_2026-05-16_at_18.02.49.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_011_WhatsApp_Image_2026-05-16_at_18.02.50.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_012_WhatsApp_Image_2026-05-16_at_18.03.03.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_013_WhatsApp_Image_2026-05-16_at_18.03.04_1_.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_014_WhatsApp_Image_2026-05-16_at_18.03.04.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_015_WhatsApp_Image_2026-05-16_at_18.03.05_1_.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_016_WhatsApp_Image_2026-05-16_at_18.03.05_2_.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_017_WhatsApp_Image_2026-05-16_at_18.03.05_3_.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_018_WhatsApp_Image_2026-05-16_at_18.03.05_4_.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_019_WhatsApp_Image_2026-05-16_at_18.03.05_5_.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_020_WhatsApp_Image_2026-05-16_at_18.03.05.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_021_WhatsApp_Image_2026-05-16_at_18.03.06.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_022_WhatsApp_Image_2026-05-16_at_18.09.36_1_.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_023_WhatsApp_Image_2026-05-16_at_18.09.36_2_.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_024_WhatsApp_Image_2026-05-16_at_18.09.36_3_.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_025_WhatsApp_Image_2026-05-16_at_18.09.36.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_026_WhatsApp_Image_2026-05-16_at_18.09.37.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_027_WhatsApp_Image_2026-05-16_at_18.09.38.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_028_e1.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_029_hero_new.jpeg",
+          "caption": ""
+        }
       ]
     },
     {
       "id": "korean-ambassador-meeting",
       "title": "Rencontre Ambassade de Corée du Sud — Mexique",
+      "titleEn": "Meeting with the Embassy of South Korea — Mexico",
+      "descriptionEn": "Meeting with H.E. Ambassador JOOIL LEE, Consul EUNJIN LEE and Municipal President Caroline Garduño.",
+      "titleEs": "Reunión con la Embajada de Corea del Sur — México",
+      "descriptionEs": "Reunión con S.E. el Embajador JOOIL LEE, la Cónsul EUNJIN LEE y la Presidenta Municipal Caroline Garduño.",
+      "titleAr": "لقاء مع سفارة كوريا الجنوبية — المكسيك",
+      "descriptionAr": "لقاء مع سعادة السفير جو إيل لي، القنصل إون جين لي والرئيسة البلدية كارولينا غاردونيو.",
+      "titleZh": "会见韩国驻墨西哥大使馆",
+      "descriptionZh": "会见JOOIL LEE大使阁下、领事EUNJIN LEE及市长Caroline Garduño。",
+      "titleRu": "Встреча с Посольством Республики Корея — Мексика",
+      "descriptionRu": "Встреча с Его Превосходительством послом JOOIL LEE, консулом EUNJIN LEE и муниципальным президентом Caroline Garduño.",
       "description": "Rencontre avec S.E. l'Ambassadeur JOOIL LEE, la Consul EUNJIN LEE et la Présidente Municipale Caroline Garduño.",
+      "date": "2026-05-30",
       "photos": [
-        { "url": "uploads/photos/in-image_1.jpg", "caption": "" },
-        { "url": "uploads/photos/in-image_2.jpg", "caption": "" },
-        { "url": "uploads/photos/in-image_3.jpg", "caption": "" }
+        {
+          "url": "uploads/photos/in-image_1.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/in-image_2.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/in-image_3.jpg",
+          "caption": ""
+        }
       ]
     },
     {
       "id": "bibimbap-festival-2026",
       "title": "Bibimbap Festival — Foro Lindbergh, Parque México",
+      "titleEn": "Bibimbap Festival — Foro Lindbergh, Parque México",
+      "descriptionEn": "Participation in the Bibimbap Festival at Foro Lindbergh, Parque México — intercultural dialogue and cooperation between nations.",
+      "titleEs": "Festival Bibimbap — Foro Lindbergh, Parque México",
+      "descriptionEs": "Participación en el Festival Bibimbap en el Foro Lindbergh, Parque México — diálogo intercultural y cooperación entre naciones.",
+      "titleAr": "مهرجان بيبيمباب — فورو ليندبرغ، باركي ميكسيكو",
+      "descriptionAr": "المشاركة في مهرجان بيبيمباب في فورو ليندبرغ، باركي ميكسيكو — حوار بين الثقافات وتعاون بين الأمم.",
+      "titleZh": "拌饭节 — Lindbergh论坛，墨西哥公园",
+      "descriptionZh": "参加在墨西哥公园Lindbergh论坛举办的拌饭节 — 跨文化对话与国际合作。",
+      "titleRu": "Фестиваль Бибимбап — Foro Lindbergh, Parque México",
+      "descriptionRu": "Участие в фестивале Бибимбап в Foro Lindbergh, Parque México — межкультурный диалог и сотрудничество между народами.",
       "description": "Participation au Bibimbap Festival au Foro Lindbergh, Parque México — intercultural dialogue et coopération entre nations.",
+      "date": "2026-05-30",
       "photos": [
-        { "url": "uploads/photos/in2-image_1.jpg", "caption": "" },
-        { "url": "uploads/photos/in2-image_2.jpg", "caption": "" },
-        { "url": "uploads/photos/in2-image_3.jpg", "caption": "" },
-        { "url": "uploads/photos/in2-image_4.jpg", "caption": "" },
-        { "url": "uploads/photos/in2-image_5.jpg", "caption": "" },
-        { "url": "uploads/photos/in2-image_6.jpg", "caption": "" },
-        { "url": "uploads/photos/in2-image_7.jpg", "caption": "" },
-        { "url": "uploads/photos/in2-image_8.jpg", "caption": "" },
-        { "url": "uploads/photos/in2-image_9.jpg", "caption": "" },
-        { "url": "uploads/photos/in2-image_10.jpg", "caption": "" },
-        { "url": "uploads/photos/in2-image_11.jpg", "caption": "" },
-        { "url": "uploads/photos/in2-image_12.jpg", "caption": "" },
-        { "url": "uploads/photos/in2-image_13.jpg", "caption": "" },
-        { "url": "uploads/photos/in2-image_14.jpg", "caption": "" },
-        { "url": "uploads/photos/in2-image_15.jpg", "caption": "" }
+        {
+          "url": "uploads/photos/in2-image_1.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/in2-image_2.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/in2-image_3.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/in2-image_4.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/in2-image_5.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/in2-image_6.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/in2-image_7.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/in2-image_8.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/in2-image_9.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/in2-image_10.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/in2-image_11.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/in2-image_12.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/in2-image_13.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/in2-image_14.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/in2-image_15.jpg",
+          "caption": ""
+        }
       ]
     },
     {
       "id": "riyadh-igf-2026",
       "title": "Participation à l'IGF Riyadh — Arabie Saoudite",
+      "titleEn": "Participation in IGF Riyadh — Saudi Arabia",
+      "descriptionEn": "International dialogue on Internet governance, digital cooperation and sustainable development.",
+      "titleEs": "Participación en el IGF Riyadh — Arabia Saudita",
+      "descriptionEs": "Diálogo internacional sobre gobernanza de Internet, cooperación digital y desarrollo sostenible.",
+      "titleAr": "المشاركة في منتدى حوكمة الإنترنت — الرياض",
+      "descriptionAr": "حوار دولي حول حوكمة الإنترنت والتعاون الرقمي والتنمية المستدامة.",
+      "titleZh": "参加利雅得互联网治理论坛 — 沙特阿拉伯",
+      "descriptionZh": "围绕互联网治理、数字合作与可持续发展的国际对话。",
+      "titleRu": "Участие в IGF Эр-Рияд — Саудовская Аравия",
+      "descriptionRu": "Международный диалог об управлении Интернетом, цифровом сотрудничестве и устойчивом развитии.",
       "description": "Dialogue international sur la gouvernance de l'Internet, la coopération numérique et le développement durable.",
+      "date": "2026-06-19",
       "photos": [
-        { "url": "uploads/photos/gallery_030_riyadh_IGF.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_031_riyadh_IGF.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_032_riyadh_IGF.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_033_riyadh_IGF.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_034_riyadh_IGF.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_035_riyadh_IGF.jpeg", "caption": "" }
+        {
+          "url": "uploads/photos/gallery_030_riyadh_IGF.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_031_riyadh_IGF.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_032_riyadh_IGF.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_033_riyadh_IGF.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_034_riyadh_IGF.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_035_riyadh_IGF.jpeg",
+          "caption": ""
+        }
       ]
     },
     {
       "id": "geneva-un-2026",
       "title": "Réunion à l'ONU Genève — Suisse",
+      "titleEn": "Meeting at UN Geneva — Switzerland",
+      "descriptionEn": "Diplomatic mission to the United Nations Office in Geneva. Participation in UN commissions.",
+      "titleEs": "Reunión en la ONU Ginebra — Suiza",
+      "descriptionEs": "Misión diplomática a la Oficina de las Naciones Unidas en Ginebra. Participación en comisiones de la ONU.",
+      "titleAr": "اجتماع في الأمم المتحدة جنيف — سويسرا",
+      "descriptionAr": "مهمة دبلوماسية إلى مكتب الأمم المتحدة في جنيف. المشاركة في لجان الأمم المتحدة.",
+      "titleZh": "联合国日内瓦会议 — 瑞士",
+      "descriptionZh": "对联合国日内瓦办事处的外交访问，参加联合国各委员会。",
+      "titleRu": "Встреча в ООН Женева — Швейцария",
+      "descriptionRu": "Дипломатическая миссия в офис ООН в Женеве. Участие в комиссиях ООН.",
       "description": "Mission diplomatique à l'Office des Nations Unies à Genève. Participation aux commissions onusiennes.",
+      "date": "2026-06-21",
       "photos": [
-        { "url": "uploads/photos/gallery_036_geneva_un.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_037_geneva_un.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_038_geneva_un.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_039_geneva_un.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_040_geneva_un.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_041_geneva_un.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_042_geneva_un.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_043_geneva_un.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_044_geneva_un.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_045_geneva_un.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_046_geneva_un.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_047_geneva_un.jpeg", "caption": "" }
+        {
+          "url": "uploads/photos/gallery_036_geneva_un.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_037_geneva_un.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_038_geneva_un.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_039_geneva_un.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_040_geneva_un.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_041_geneva_un.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_042_geneva_un.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_043_geneva_un.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_044_geneva_un.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_045_geneva_un.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_046_geneva_un.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_047_geneva_un.jpeg",
+          "caption": ""
+        }
       ]
     },
     {
       "id": "vienna-un-2026",
       "title": "Office des Nations Unies — Vienne, Autriche",
+      "titleEn": "United Nations Office — Vienna, Austria",
+      "descriptionEn": "Diplomatic mission to the United Nations Office in Vienna, Austria.",
+      "titleEs": "Oficina de las Naciones Unidas — Viena, Austria",
+      "descriptionEs": "Misión diplomática a la Oficina de las Naciones Unidas en Viena, Austria.",
+      "titleAr": "مكتب الأمم المتحدة — فيينا، النمسا",
+      "descriptionAr": "مهمة دبلوماسية إلى مكتب الأمم المتحدة في فيينا، النمسا.",
+      "titleZh": "联合国办事处 — 奥地利维也纳",
+      "descriptionZh": "对奥地利维也纳联合国办事处的外交访问。",
+      "titleRu": "Офис Организации Объединённых Наций — Вена, Австрия",
+      "descriptionRu": "Дипломатическая миссия в офис ООН в Вене, Австрия.",
       "description": "Mission diplomatique à l'Office des Nations Unies à Vienne, Autriche.",
+      "date": "2026-06-17",
       "photos": [
-        { "url": "uploads/photos/gallery_048_vienna_un.jpeg", "caption": "" }
+        {
+          "url": "uploads/photos/gallery_048_vienna_un.jpeg",
+          "caption": ""
+        }
       ]
     },
     {
       "id": "interview-paix-2026",
       "title": "Interview — Vision sur la Paix dans le Monde",
+      "titleEn": "Interview — Vision for World Peace",
+      "descriptionEn": "Exclusive interview on world peace, intercultural diplomacy and sustainable development.",
+      "titleEs": "Entrevista — Visión sobre la Paz Mundial",
+      "descriptionEs": "Entrevista exclusiva sobre la paz mundial, la diplomacia intercultural y el desarrollo sostenible.",
+      "titleAr": "حوار — رؤية للسلام العالمي",
+      "descriptionAr": "حوار حصري حول السلام العالمي والدبلوماسية بين الثقافات والتنمية المستدامة.",
+      "titleZh": "访谈 — 世界和平愿景",
+      "descriptionZh": "关于世界和平、跨文化外交与可持续发展的独家访谈。",
+      "titleRu": "Интервью — видение мирового мира",
+      "descriptionRu": "Эксклюзивное интервью о мировом мире, межкультурной дипломатии и устойчивом развитии.",
       "description": "Interview exclusive sur la paix mondiale, la diplomatie interculturelle et le développement durable.",
+      "date": "2026-06-23",
       "photos": [
-        { "url": "uploads/photos/gallery_049_interview_paix.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_050_interview_paix.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_051_interview_paix.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_052_interview_paix.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_053_interview_paix.jpeg", "caption": "" }
+        {
+          "url": "uploads/photos/gallery_049_interview_paix.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_050_interview_paix.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_051_interview_paix.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_052_interview_paix.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_053_interview_paix.jpeg",
+          "caption": ""
+        }
       ]
     },
     {
       "id": "metepec-festival-2026",
       "title": "Festival Culturel de Metepec 2026 — Mexique",
+      "titleEn": "Metepec Cultural Festival 2026 — Mexico",
+      "descriptionEn": "Working meeting to organize the Annual Metepec Cultural Festival. Promotion of art and intercultural dialogue.",
+      "titleEs": "Festival Cultural de Metepec 2026 — México",
+      "descriptionEs": "Reunión de trabajo para organizar el Festival Cultural Anual de Metepec. Promoción del arte y el diálogo intercultural.",
+      "titleAr": "مهرجان ميتيبك الثقافي 2026 — المكسيك",
+      "descriptionAr": "اجتماع عمل لتنظيم المهرجان الثقافي السنوي لميتيبك. تعزيز الفن والحوار بين الثقافات.",
+      "titleZh": "2026梅特佩克文化节 — 墨西哥",
+      "descriptionZh": "筹办梅特佩克年度文化节的工作会议，推广艺术与跨文化对话。",
+      "titleRu": "Фестиваль культуры Метепек 2026 — Мексика",
+      "descriptionRu": "Рабочая встреча по организации Ежегодного фестиваля культуры Метепек. Продвижение искусства и межкультурного диалога.",
       "description": "Réunion de travail pour l'organisation du Festival Culturel Annuel de Metepec. Promotion de l'art et du dialogue interculturel.",
+      "date": "2026-06-20",
       "photos": [
-        { "url": "uploads/photos/gallery_054_metepec.jpg", "caption": "" },
-        { "url": "uploads/photos/gallery_055_metepec.jpg", "caption": "" },
-        { "url": "uploads/photos/gallery_056_metepec.jpg", "caption": "" }
+        {
+          "url": "uploads/photos/gallery_054_metepec.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_055_metepec.jpg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_056_metepec.jpg",
+          "caption": ""
+        }
       ]
     },
     {
       "id": "albania-mission-2026",
       "title": "Mission Diplomatique en Albanie — Tirana",
+      "titleEn": "Diplomatic Mission in Albania — Tirana",
+      "descriptionEn": "Mission to Tirana with the Deputy Minister of Education for the International Training on Diplomatic Protocol.",
+      "titleEs": "Misión Diplomática en Albania — Tirana",
+      "descriptionEs": "Misión a Tirana con la Viceministra de Educación para la Formación Internacional sobre Protocolo Diplomático.",
+      "titleAr": "مهمة دبلوماسية في ألبانيا — تيرانا",
+      "descriptionAr": "مهمة في تيرانا مع نائبة وزير التربية والتعليم للتدريب الدولي حول البروتوكول الدبلوماسي.",
+      "titleZh": "阿尔巴尼亚外交使命 — 地拉那",
+      "descriptionZh": "与教育部副部长在地拉那开展外交礼仪国际培训任务。",
+      "titleRu": "Дипломатическая миссия в Албании — Тирана",
+      "descriptionRu": "Миссия в Тиране с заместителем министра образования по Международной подготовке по дипломатическому протоколу.",
       "description": "Mission à Tirana avec la Vice-Ministre de l'Éducation pour la Formation Internationale sur le Protocole Diplomatique.",
+      "date": "2026-06-22",
       "photos": [
-        { "url": "uploads/photos/gallery_057_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_058_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_059_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_060_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_061_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_062_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_063_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_064_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_065_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_066_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_067_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_068_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_069_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_070_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_071_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_072_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_073_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_074_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_075_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_076_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_077_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_078_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_079_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_080_albania.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_081_albania.jpeg", "caption": "" }
+        {
+          "url": "uploads/photos/gallery_057_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_058_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_059_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_060_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_061_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_062_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_063_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_064_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_065_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_066_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_067_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_068_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_069_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_070_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_071_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_072_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_073_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_074_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_075_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_076_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_077_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_078_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_079_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_080_albania.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_081_albania.jpeg",
+          "caption": ""
+        }
       ]
     },
     {
       "id": "kosovo-delegation-2026",
       "title": "Délégation Camerounaise en route pour le Kosovo 2026",
+      "titleEn": "Cameroonian Delegation en route for Kosovo 2026",
+      "descriptionEn": "Cameroonian delegation en route for Kosovo — diplomatic missions and international forums 2026.",
+      "titleEs": "Delegación Camerunesa en ruta hacia Kosovo 2026",
+      "descriptionEs": "Delegación camerunesa en ruta hacia Kosovo — misiones diplomáticas y foros internacionales 2026.",
+      "titleAr": "وفد الكاميرون في طريقه إلى كوسوفو 2026",
+      "descriptionAr": "وفد كاميروني في طريقه إلى كوسوفو — مهام دبلوماسية ومنتديات الدولية 2026.",
+      "titleZh": "喀麦隆代表团前往科索沃 2026",
+      "descriptionZh": "喀麦隆代表团前往科索沃 — 2026年外交使命与国际论坛。",
+      "titleRu": "Камерунская делегация в пути в Косово 2026",
+      "descriptionRu": "Камерунская делегация в пути в Косово — дипломатические миссии и международные форумы 2026.",
       "description": "Délégation camerounaise en route pour le Kosovo — missions diplomatiques et forums internationaux 2026.",
+      "date": "2026-08-24",
       "photos": [
-        { "url": "uploads/photos/gallery_082_kosovo_delegation.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_083_kosovo_delegation.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_084_kosovo_delegation.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_085_kosovo_delegation.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_086_kosovo_delegation.jpeg", "caption": "" }
+        {
+          "url": "uploads/photos/gallery_082_kosovo_delegation.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_083_kosovo_delegation.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_084_kosovo_delegation.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_085_kosovo_delegation.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_086_kosovo_delegation.jpeg",
+          "caption": ""
+        }
       ]
     },
     {
       "id": "viti-mayor-distinction-2026",
       "title": "Distinction Spéciale du Maire de Viti — Kosovo",
+      "titleEn": "Special Distinction from the Mayor of Viti — Kosovo",
+      "descriptionEn": "Presentation of a special distinction by Mr. Sokol Haliti, Mayor of the city of Viti, in Kosovo.",
+      "titleEs": "Distinción Especial del Alcalde de Viti — Kosovo",
+      "descriptionEs": "Entrega de una distinción especial por parte del Sr. Sokol Haliti, Alcalde de la ciudad de Viti, en Kosovo.",
+      "titleAr": "تميز خاص من عمدة فيتي — كوسوفو",
+      "descriptionAr": "تقديم تميز خاص من السيد سوكول هاليتي، عمدة مدينة فيتي، في كوسوفو.",
+      "titleZh": "维提市长特别荣誉 — 科索沃",
+      "descriptionZh": "科索沃维提市市长Sokol Haliti先生颁发特别荣誉。",
+      "titleRu": "Особое отличие мэра Вити — Косово",
+      "descriptionRu": "Вручение особого отличия господином Соколом Халити, мэром города Вити, Косово.",
       "description": "Remise d'une distinction spéciale par Monsieur Sokol Haliti, Maire de la ville de Viti, au Kosovo.",
+      "date": "2026-08-27",
       "photos": [
-        { "url": "uploads/photos/gallery_087_viti_mayor.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_088_viti_mayor.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_089_viti_mayor.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_090_viti_mayor.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_091_viti_mayor.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_092_viti_mayor.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_093_viti_mayor.jpeg", "caption": "" }
+        {
+          "url": "uploads/photos/gallery_087_viti_mayor.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_088_viti_mayor.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_089_viti_mayor.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_090_viti_mayor.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_091_viti_mayor.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_092_viti_mayor.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_093_viti_mayor.jpeg",
+          "caption": ""
+        }
       ]
     },
     {
       "id": "kosovo-president-osmani-2026",
       "title": "Rencontre avec S.E. la Présidente du Kosovo — Dr Vjosa Osmani",
+      "titleEn": "Meeting with H.E. the President of Kosovo — Dr Vjosa Osmani",
+      "descriptionEn": "Brief exchange between Ambassador Arsène TATSAZEU and Her Excellency Dr Vjosa Osmani, President of the Republic of Kosovo.",
+      "titleEs": "Reunión con S.E. la Presidenta de Kosovo — Dra. Vjosa Osmani",
+      "descriptionEs": "Breve intercambio entre el Embajador Arsène TATSAZEU y Su Excelencia la Dra. Vjosa Osmani, Presidenta de la República de Kosovo.",
+      "titleAr": "لقاء مع رئيسة كوسوفو — الدكتورة فيوسا أوسماني",
+      "descriptionAr": "تبادل موجز بين السفير أرسين تاتازو وسعادة الدكتورة فيوسا أوسماني، رئيسة جمهورية كوسوفو.",
+      "titleZh": "会见科索沃总统 — Vjosa Osmani博士",
+      "descriptionZh": "阿尔塞纳·塔塔泽乌大使与科索沃共和国总统Vjosa Osmani阁下的简短交流。",
+      "titleRu": "Встреча с Е.П. Президентом Косово — д-р Вьоса Османи",
+      "descriptionRu": "Краткий обмен между послом Арсеном Татазеу и Её Превосходительством д-ром Вьосой Османи, Президентом Республики Косово.",
       "description": "Bref échange entre l'Ambassadeur Arsène TATSAZEU et Son Excellence Madame la Présidente de la République du Kosovo, Dr Vjosa Osmani.",
+      "date": "2026-08-28",
       "photos": [
-        { "url": "uploads/photos/gallery_094_kosovo_president.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_095_kosovo_president.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_096_kosovo_president.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_097_kosovo_president.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_098_kosovo_president.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_099_kosovo_president.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_100_kosovo_president.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_101_kosovo_president.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_102_kosovo_president.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_103_kosovo_president.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_104_kosovo_president.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_105_kosovo_president.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_106_kosovo_president.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_107_kosovo_president.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_108_kosovo_president.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_109_kosovo_president.jpeg", "caption": "" }
+        {
+          "url": "uploads/photos/gallery_094_kosovo_president.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_095_kosovo_president.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_096_kosovo_president.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_097_kosovo_president.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_098_kosovo_president.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_099_kosovo_president.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_100_kosovo_president.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_101_kosovo_president.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_102_kosovo_president.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_103_kosovo_president.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_104_kosovo_president.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_105_kosovo_president.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_106_kosovo_president.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_107_kosovo_president.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_108_kosovo_president.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_109_kosovo_president.jpeg",
+          "caption": ""
+        }
       ]
     },
     {
       "id": "world-peace-forum-viti-2026",
       "title": "World Peace Forum in Kosovo — Viti, 25–29 Août 2026",
+      "titleEn": "World Peace Forum in Kosovo — Viti, August 25–29, 2026",
+      "descriptionEn": "Ambassador Dr. Arsène TATSAZEU, active contributor to the organization of the World Peace Forum in Viti, Kosovo. Honorary distinction from the Municipality of Viti and a Declaration intended for the United Nations.",
+      "titleEs": "Foro Mundial por la Paz en Kosovo — Viti, 25–29 de agosto de 2026",
+      "descriptionEs": "El Embajador Dr. Arsène TATSAZEU, contribuyente activo a la organización del Foro Mundial por la Paz en Viti, Kosovo. Distinción honorífica del Municipio de Viti y una Declaración destinada a las Naciones Unidas.",
+      "titleAr": "منتدى السلام العالمي في كوسوفو — فيتي، 25–29 أغسطس 2026",
+      "descriptionAr": "السفير الدكتور أرسين تاتازو، مساهم فعال في تنظيم منتدى السلام العالمي في فيتي، كوسوفو. تميز شرفي من بلدية فيتي وإعلان موجه إلى الأمم المتحدة.",
+      "titleZh": "科索沃世界和平论坛 — 维提，2026年8月25–29日",
+      "descriptionZh": "阿尔塞纳·塔塔泽乌大使积极推动科索沃维提世界和平论坛的举办。获维提市荣誉表彰及提交联合国的宣言。",
+      "titleRu": "Всемирный форум за мир в Косово — Вити, 25–29 августа 2026",
+      "descriptionRu": "Посол д-р Арсен Татазеу — активный содействующий организации Всемирного форума за мир в Вити, Косово. Почётное отличие муниципалитета Вити и Декларация, предназначенная для ООН.",
       "description": "Ambassadeur Dr. Arsène TATSAZEU, contributeur actif à l'organisation du World Peace Forum à Viti, Kosovo. Distinction honorifique de la Municipalité de Viti et Déclaration destinée aux Nations Unies.",
+      "date": "2026-08-29",
       "photos": [
-        { "url": "uploads/photos/gallery_110_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_111_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_112_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_113_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_114_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_115_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_116_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_117_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_118_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_119_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_120_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_121_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_122_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_123_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_124_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_125_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_126_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_127_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_128_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_129_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_130_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_131_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_132_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_133_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_134_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_135_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_136_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_137_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_138_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_139_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_140_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_141_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_142_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_143_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_144_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_145_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_146_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_147_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_148_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_149_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_150_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_151_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_152_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_153_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_154_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_155_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_156_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_157_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_158_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_159_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_160_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_161_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_162_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_163_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_164_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_165_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_166_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_167_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_168_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_169_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_170_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_171_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_172_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_173_world_peace_forum.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_174_world_peace_forum.jpeg", "caption": "" }
+        {
+          "url": "uploads/photos/gallery_110_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_111_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_112_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_113_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_114_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_115_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_116_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_117_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_118_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_119_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_120_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_121_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_122_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_123_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_124_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_125_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_126_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_127_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_128_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_129_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_130_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_131_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_132_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_133_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_134_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_135_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_136_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_137_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_138_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_139_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_140_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_141_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_142_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_143_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_144_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_145_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_146_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_147_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_148_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_149_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_150_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_151_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_152_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_153_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_154_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_155_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_156_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_157_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_158_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_159_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_160_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_161_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_162_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_163_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_164_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_165_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_166_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_167_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_168_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_169_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_170_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_171_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_172_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_173_world_peace_forum.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_174_world_peace_forum.jpeg",
+          "caption": ""
+        }
       ]
     },
     {
       "id": "mexico-sre-cooperation-2026",
       "title": "Conférence avec le Secrétariat des Relations Extérieures du Mexique",
+      "titleEn": "Conference with the Mexican Secretariat of Foreign Affairs",
+      "descriptionEn": "Conference on international cooperation and immigration. Brief dialogue with Senator Karina Isabel Ruiz after the event.",
+      "titleEs": "Conferencia con la Secretaría de Relaciones Exteriores de México",
+      "descriptionEs": "Conferencia sobre cooperación internacional e inmigración. Breve diálogo con la senadora Karina Isabel Ruiz después del evento.",
+      "titleAr": "مؤتمر مع السكرتارية الخارجية المكسيكية",
+      "descriptionAr": "مؤتمر حول التعاون الدولي والهجرة. حوار موجز مع السيناتور كارينا إيزابيل رويز بعد الحدث.",
+      "titleZh": "与墨西哥外交部会议",
+      "descriptionZh": "关于国际合作与移民的会议。活动结束后与参议员Karina Isabel Ruiz简短交流。",
+      "titleRu": "Конференция с Министерством иностранных дел Мексики",
+      "descriptionRu": "Конференция по международному сотрудничеству и иммиграции. Краткий диалог с сенатором Кариной Изабель Руис после мероприятия.",
       "description": "Conférence sur la coopération internationale et l'immigration. Bref dialogue avec la sénatrice Karina Isabel Ruiz après l'événement.",
+      "date": "2026-07-15",
       "photos": [
-        { "url": "uploads/photos/gallery_175_mexico_sre.jpeg", "caption": "" },
-        { "url": "uploads/photos/gallery_176_mexico_sre.jpeg", "caption": "" }
+        {
+          "url": "uploads/photos/gallery_175_mexico_sre.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_176_mexico_sre.jpeg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "id": "moments-divers-2026",
+      "title": "Moments Divers — Cérémonies, Célébrations & Voyages",
+      "titleEn": "Diverse Moments — Ceremonies, Celebrations & Travels",
+      "descriptionEn": "Interfaith church ceremony, formal events, night celebration with the flag of Cameroon and travels across international missions.",
+      "titleEs": "Momentos Diversos — Ceremonias, Celebraciones y Viajes",
+      "descriptionEs": "Ceremonia interreligiosa en la iglesia, eventos formales, celebración nocturna con la bandera de Camerún y viajes por las misiones internacionales.",
+      "titleAr": "لحظات متنوعة — مراسم احتفالات وسفر",
+      "descriptionAr": "مراسم بين الأديان في الكنيسة، وأحداث رسمية، واحتفال ليلي بعلم الكاميرون، وسفر عبر المهام الدولية.",
+      "titleZh": "多元时刻 — 仪式、庆典与旅行",
+      "descriptionZh": "教堂跨宗教仪式、正式活动、喀麦隆国旗夜间庆典以及国际使命之旅。",
+      "titleRu": "Разные моменты — церемонии, праздники и путешествия",
+      "descriptionRu": "Межконфессиональная церемония в церкви, официальные мероприятия, ночное празднование с флагом Камеруна и поездки по международным миссиям.",
+      "description": "Cérémonie interreligieuse en église, événements formels, célébration nocturne au drapeau du Cameroun et voyages à travers les missions internationales.",
+      "date": "2026-10-05",
+      "photos": [
+        {
+          "url": "uploads/photos/gallery_177_moments_divers.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_178_moments_divers.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_179_moments_divers.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_180_moments_divers.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_181_moments_divers.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_182_moments_divers.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_183_moments_divers.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_184_moments_divers.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_185_moments_divers.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_186_moments_divers.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_187_moments_divers.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_188_moments_divers.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_189_moments_divers.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_190_moments_divers.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_191_moments_divers.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_192_moments_divers.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "uploads/photos/gallery_193_moments_divers.jpeg",
+          "caption": ""
+        }
       ]
     }
   ],
-  videos: [
+  "videos": [
     {
       "title": "Intervention Officielle — Discours",
+      "titleEn": "Official Address — Speech",
+      "titleEs": "Intervención Oficial — Discurso",
+      "titleAr": "خطاب رسمي — كلمة",
+      "titleZh": "正式发言 — 演讲",
+      "titleRu": "Официальное выступление — речь",
       "description": "Dr. Arsène Romaric TATSAZEU",
+      "descriptionEn": "Dr. Arsène Romaric TATSAZEU",
+      "descriptionEs": "Dr. Arsène Romaric TATSAZEU",
+      "descriptionAr": "الدكتور أرسين روماريك تاتازو",
+      "descriptionZh": "阿瑟内·罗梅里克·塔塔泽乌博士",
+      "descriptionRu": "Д-р Арсен Ромарик Татазеу",
       "url": "uploads/videos/video_01_1.mp4"
     },
     {
       "title": "Présentation Diplomatique",
+      "titleEn": "Diplomatic Presentation",
+      "titleEs": "Presentación Diplomática",
+      "titleAr": "عرض دبلوماسي",
+      "titleZh": "外交演讲",
+      "titleRu": "Дипломатическая презентация",
       "description": "Dr. Arsène Romaric TATSAZEU",
+      "descriptionEn": "Dr. Arsène Romaric TATSAZEU",
+      "descriptionEs": "Dr. Arsène Romaric TATSAZEU",
+      "descriptionAr": "الدكتور أرسين روماريك تاتازو",
+      "descriptionZh": "阿瑟内·罗梅里克·塔塔泽乌博士",
+      "descriptionRu": "Д-р Арсен Ромарик Татазеу",
       "url": "uploads/videos/video_02_2.mp4"
     },
     {
       "title": "Événement — Mai 2026",
+      "titleEn": "Event — May 2026",
+      "titleEs": "Evento — Mayo 2026",
+      "titleAr": "حدث — مايو 2026",
+      "titleZh": "活动 — 2026年5月",
+      "titleRu": "Мероприятие — май 2026",
       "description": "Dr. Arsène Romaric TATSAZEU",
+      "descriptionEn": "Dr. Arsène Romaric TATSAZEU",
+      "descriptionEs": "Dr. Arsène Romaric TATSAZEU",
+      "descriptionAr": "الدكتور أرسين روماريك تاتازو",
+      "descriptionZh": "阿瑟内·罗梅里克·塔塔泽乌博士",
+      "descriptionRu": "Д-р Арсен Ромарик Татазеу",
       "url": "uploads/videos/video_03_WhatsApp_Video_2026-05-16_at_18.09.36.mp4"
     },
     {
       "title": "Conférence Internationale — Mai 2026",
+      "titleEn": "International Conference — May 2026",
+      "titleEs": "Conferencia Internacional — Mayo 2026",
+      "titleAr": "مؤتمر دولي — مايو 2026",
+      "titleZh": "国际会议 — 2026年5月",
+      "titleRu": "Международная конференция — май 2026",
       "description": "Dr. Arsène Romaric TATSAZEU",
+      "descriptionEn": "Dr. Arsène Romaric TATSAZEU",
+      "descriptionEs": "Dr. Arsène Romaric TATSAZEU",
+      "descriptionAr": "الدكتور أرسين روماريك تاتازو",
+      "descriptionZh": "阿瑟内·罗梅里克·塔塔泽乌博士",
+      "descriptionRu": "Д-р Арсен Ромарик Татазеу",
       "url": "uploads/videos/video_04_WhatsApp_Video_2026-05-16_at_18.09.37.mp4"
     },
     {
       "title": "Intervention Diplomatique — Mai 2026",
+      "titleEn": "Diplomatic Address — May 2026",
+      "titleEs": "Intervención Diplomática — Mayo 2026",
+      "titleAr": "تدخل دبلوماسي — مايو 2026",
+      "titleZh": "外交致辞 — 2026年5月",
+      "titleRu": "Дипломатическое выступление — май 2026",
       "description": "Dr. Arsène Romaric TATSAZEU",
+      "descriptionEn": "Dr. Arsène Romaric TATSAZEU",
+      "descriptionEs": "Dr. Arsène Romaric TATSAZEU",
+      "descriptionAr": "الدكتور أرسين روماريك تاتازو",
+      "descriptionZh": "阿瑟内·罗梅里克·塔塔泽乌博士",
+      "descriptionRu": "Д-р Арсен Ромарик Татазеу",
       "url": "uploads/videos/video_05_WhatsApp_Video_2026-05-21_at_00.19.50_1_.mp4"
     },
     {
       "title": "Bibimbap Festival — Foro Lindbergh, Parque México",
+      "titleEn": "Bibimbap Festival — Foro Lindbergh, Parque México",
+      "titleEs": "Festival Bibimbap — Foro Lindbergh, Parque México",
+      "titleAr": "مهرجان بيبيمباب — فورو ليندبرغ، باركي ميكسيكو",
+      "titleZh": "拌饭节 — Lindbergh论坛，墨西哥公园",
+      "titleRu": "Фестиваль Бибимбап — Foro Lindbergh, Parque México",
       "description": "Dr. Arsène Romaric TATSAZEU — Festival culturel et diplomatique",
+      "descriptionEn": "Dr. Arsène Romaric TATSAZEU — Cultural and diplomatic festival",
+      "descriptionEs": "Dr. Arsène Romaric TATSAZEU — Festival cultural y diplomático",
+      "descriptionAr": "الدكتور أرسين روماريك تاتازو — مهرجان ثقافي ودبلوماسي",
+      "descriptionZh": "阿瑟内·罗梅里克·塔塔泽乌博士 — 文化与外交节庆",
+      "descriptionRu": "Д-р Арсен Ромарик Татазеу — культурно-дипломатический фестиваль",
       "url": "uploads/videos/new_event1.mp4"
     },
     {
       "title": "Visite Officielle au Kosovo — Municipalité de Viti (1)",
+      "titleEn": "Official Visit to Kosovo — Municipality of Viti (1)",
+      "titleEs": "Visita Oficial al Kosovo — Municipio de Viti (1)",
+      "titleAr": "زيارة رسمية إلى كوسوفو — بلدية فيتي (1)",
+      "titleZh": "正式访问科索沃 — 维提市（1）",
+      "titleRu": "Официальный визит в Косово — муниципалитет Вити (1)",
       "description": "Dr. Arsène Romaric TATSAZEU — Visite officielle au Kosovo, reçu par le Maire Sokol Haliti",
+      "descriptionEn": "Dr. Arsène Romaric TATSAZEU — Official visit to Kosovo, received by Mayor Sokol Haliti",
+      "descriptionEs": "Dr. Arsène Romaric TATSAZEU — Visita oficial al Kosovo, recibido por el Alcalde Sokol Haliti",
+      "descriptionAr": "الدكتور أرسين روماريك تاتازو — زيارة رسمية إلى كوسوفو واستقباله من العمدة سوكول هاليتي",
+      "descriptionZh": "阿瑟内·罗梅里克·塔塔泽乌博士 — 正式访问科索沃，获市长Sokol Haliti接见",
+      "descriptionRu": "Д-р Арсен Ромарик Татазеу — официальный визит в Косово, принят мэром Соколом Халити",
       "url": "uploads/videos/video_06_kosovo_visit_1.mp4"
     },
     {
       "title": "Visite Officielle au Kosovo — Municipalité de Viti (2)",
+      "titleEn": "Official Visit to Kosovo — Municipality of Viti (2)",
+      "titleEs": "Visita Oficial al Kosovo — Municipio de Viti (2)",
+      "titleAr": "زيارة رسمية إلى كوسوفو — بلدية فيتي (2)",
+      "titleZh": "正式访问科索沃 — 维提市（2）",
+      "titleRu": "Официальный визит в Косово — муниципалитет Вити (2)",
       "description": "Dr. Arsène Romaric TATSAZEU — Renforcement de la coopération internationale pour la paix",
+      "descriptionEn": "Dr. Arsène Romaric TATSAZEU — Strengthening international cooperation for peace",
+      "descriptionEs": "Dr. Arsène Romaric TATSAZEU — Fortalecimiento de la cooperación internacional por la paz",
+      "descriptionAr": "الدكتور أرسين روماريك تاتازو — تعزيز التعاون الدولي من أجل السلام",
+      "descriptionZh": "阿瑟内·罗梅里克·塔塔泽乌博士 — 加强国际和平合作",
+      "descriptionRu": "Д-р Арсен Ромарик Татазеу — укрепление международного сотрудничества ради мира",
       "url": "uploads/videos/video_07_kosovo_visit_2.mp4"
+    },
+    {
+      "title": "Événement Formel — Hôtel",
+      "titleEn": "Formal Event — Hotel",
+      "titleEs": "Evento Formal — Hotel",
+      "titleAr": "حدث رسمي — فندق",
+      "titleZh": "正式活动 — 酒店",
+      "titleRu": "Официальное мероприятие — отель",
+      "description": "Dr. Arsène Romaric TATSAZEU — Rencontre protocolaire et rencontres diplomatiques",
+      "descriptionEn": "Dr. Arsène Romaric TATSAZEU — Protocol meeting and diplomatic encounters",
+      "descriptionEs": "Dr. Arsène Romaric TATSAZEU — Reunión protocolaria y encuentros diplomáticos",
+      "descriptionAr": "الدكتور أرسين روماريك تاتازو — لقاء بروتوكولي ولقاءات دبلوماسية",
+      "descriptionZh": "阿瑟内·罗梅里克·塔塔泽乌博士 — 礼仪会晤与外交交流",
+      "descriptionRu": "Д-р Арсен Ромарик Татазеу — протокольная встреча и дипломатические контакты",
+      "url": "uploads/videos/video_08_hotel_event.mp4"
+    },
+    {
+      "title": "Célébration de Nuit — Drapeau du Cameroun",
+      "titleEn": "Night Celebration — Flag of Cameroon",
+      "titleEs": "Celebración Nocturna — Bandera de Camerún",
+      "titleAr": "احتفال ليلي — علم الكاميرون",
+      "titleZh": "夜间庆典 — 喀麦隆国旗",
+      "titleRu": "Ночное празднование — флаг Камеруна",
+      "description": "Dr. Arsène Romaric TATSAZEU — Célébration avec le drapeau camerounais",
+      "descriptionEn": "Dr. Arsène Romaric TATSAZEU — Celebration with the Cameroonian flag",
+      "descriptionEs": "Dr. Arsène Romaric TATSAZEU — Celebración con la bandera camerunesa",
+      "descriptionAr": "الدكتور أرسين روماريك تاتازو — احتفال بعلم الكاميرون",
+      "descriptionZh": "阿瑟内·罗梅里克·塔塔泽乌博士 — 挥舞喀麦隆国旗的庆典",
+      "descriptionRu": "Д-р Арсен Ромарик Татазеу — празднование с флагом Камеруна",
+      "url": "uploads/videos/video_09_celebration_night.mp4"
+    },
+    {
+      "title": "En Route — Voyage International",
+      "titleEn": "En Route — International Travel",
+      "titleEs": "En Ruta — Viaje Internacional",
+      "titleAr": "في الطريق — سفر دولي",
+      "titleZh": "在路上 — 国际出行",
+      "titleRu": "В пути — международные поездки",
+      "description": "Dr. Arsène Romaric TATSAZEU — Déplacements pour les missions internationales",
+      "descriptionEn": "Dr. Arsène Romaric TATSAZEU — Travels for international missions",
+      "descriptionEs": "Dr. Arsène Romaric TATSAZEU — Desplazamientos para misiones internacionales",
+      "descriptionAr": "الدكتور أرسين روماريك تاتازو — تنقلات للمهام الدولية",
+      "descriptionZh": "阿瑟内·罗梅里克·塔塔泽乌博士 — 国际使命之旅",
+      "descriptionRu": "Д-р Арсен Ромарик Татазеу — поездки по международным миссиям",
+      "url": "uploads/videos/video_10_travel_1.mp4"
+    },
+    {
+      "title": "Voyage Aérien — Mission Internationale",
+      "titleEn": "Air Travel — International Mission",
+      "titleEs": "Viaje Aéreo — Misión Internacional",
+      "titleAr": "سفر جوي — مهمة دولية",
+      "titleZh": "空中出行 — 国际使命",
+      "titleRu": "Авиаперелёт — международная миссия",
+      "description": "Dr. Arsène Romaric TATSAZEU — À bord d'un vol international",
+      "descriptionEn": "Dr. Arsène Romaric TATSAZEU — On board an international flight",
+      "descriptionEs": "Dr. Arsène Romaric TATSAZEU — A bordo de un vuelo internacional",
+      "descriptionAr": "الدكتور أرسين روماريك تاتازو — على متن رحلة دولية",
+      "descriptionZh": "阿瑟内·罗梅里克·塔塔泽乌博士 — 在国际航班上",
+      "descriptionRu": "Д-р Арсен Ромарик Татазеу — на борту международного рейса",
+      "url": "uploads/videos/video_11_travel_2.mp4"
+    },
+    {
+      "title": "Cérémonie Interreligieuse — Église",
+      "titleEn": "Interfaith Ceremony — Church",
+      "titleEs": "Ceremonia Interreligiosa — Iglesia",
+      "titleAr": "مراسم بين الأديان — كنيسة",
+      "titleZh": "跨宗教仪式 — 教堂",
+      "titleRu": "Межконфессиональная церемония — церковь",
+      "description": "Dr. Arsène Romaric TATSAZEU — Cérémonie œcuménique et dialogue interreligieux",
+      "descriptionEn": "Dr. Arsène Romaric TATSAZEU — Ecumenical ceremony and interfaith dialogue",
+      "descriptionEs": "Dr. Arsène Romaric TATSAZEU — Ceremonia ecuménica y diálogo interreligioso",
+      "descriptionAr": "الدكتور أرسين روماريك تاتازو — مراسم مشتركة وحوار بين الأديان",
+      "descriptionZh": "阿瑟内·罗梅里克·塔塔泽乌博士 — 普世仪式与宗教间对话",
+      "descriptionRu": "Д-р Арсен Ромарик Татазеу — экуменическая церемония и межрелигиозный диалог",
+      "url": "uploads/videos/video_12_church_ceremony.mp4"
+    },
+    {
+      "title": "Intervention en Église — Cérémonie",
+      "titleEn": "Church Address — Ceremony",
+      "titleEs": "Intervención en la Iglesia — Ceremonia",
+      "titleAr": "كلمة في الكنيسة — مراسم",
+      "titleZh": "教堂致辞 — 仪式",
+      "titleRu": "Выступление в церкви — церемония",
+      "description": "Dr. Arsène Romaric TATSAZEU — Intervention lors d'une cérémonie en église",
+      "descriptionEn": "Dr. Arsène Romaric TATSAZEU — Address during a church ceremony",
+      "descriptionEs": "Dr. Arsène Romaric TATSAZEU — Intervención durante una ceremonia en la iglesia",
+      "descriptionAr": "الدكتور أرسين روماريك تاتازو — كلمة خلال مراسم في الكنيسة",
+      "descriptionZh": "阿瑟内·罗梅里克·塔塔泽乌博士 — 在教堂仪式上的致辞",
+      "descriptionRu": "Д-р Арсен Ромарик Татазеу — выступление во время церковной церемонии",
+      "url": "uploads/videos/video_13_church_altar.mp4"
     }
   ],
-  news: [
+  "news": [
     {
       "id": "1",
       "title": "Formation : Prévention de la traite des êtres humains",
+      "titleEn": "Training: Human Trafficking Prevention",
+      "titleEs": "Formación: Prevención de la trata de personas",
+      "titleAr": "التدريب: منع الاتجار بالبشر",
+      "titleZh": "培训：预防人口贩运",
+      "titleRu": "Обучение: предотвращение торговли людьми",
       "content": "Le Dr. Arsène Romaric TATSAZEU a complété avec succès la formation en ligne sur la sensibilisation et la prévention de la traite des êtres humains. Dispensée par l'IPPDR en collaboration avec le U.S. Homeland Security Investigation.",
+      "contentEn": "Dr. Arsène Romaric TATSAZEU successfully completed the online training on human trafficking awareness and prevention. Delivered by the IPPDR in collaboration with U.S. Homeland Security Investigation.",
+      "contentEs": "El Dr. Arsène Romaric TATSAZEU completó con éxito la formación en línea sobre concienciación y prevención de la trata de personas. Impartida por el IPPDR en colaboración con la U.S. Homeland Security Investigation.",
+      "contentAr": "أكمل الدكتور أرسين روماريك تاتازو بنجاح التدريب عبر الإنترنت حول التوعية بمنع الاتجار بالبشر. تقديمه من معهد IPPDR بالتعاون مع جهاز التحقيقات الأمنية الأمريكية.",
+      "contentZh": "阿瑟内·罗梅里克·塔塔泽乌博士成功完成了关于人口贩运意识与预防的在线培训。该培训由IPPDR与美国国土安全调查局合作举办。",
+      "contentRu": "Д-р Арсен Ромарик Татазеу успешно завершил онлайн-обучение по осведомлённости и предотвращению торговли людьми. Проведено IPPDR совместно с U.S. Homeland Security Investigation.",
       "date": "2026-04-30"
     },
     {
       "id": "2",
       "title": "Bibimbap Festival — Foro Lindbergh, Parque México",
+      "titleEn": "Bibimbap Festival — Foro Lindbergh, Parque México",
+      "titleEs": "Festival Bibimbap — Foro Lindbergh, Parque México",
+      "titleAr": "مهرجان بيبيمباب — فورو ليندبرغ، باركي ميكسيكو",
+      "titleZh": "拌饭节 — Lindbergh论坛，墨西哥公园",
+      "titleRu": "Фестиваль Бибимбап — Foro Lindbergh, Parque México",
       "content": "Participation au Bibimbap Festival au Foro Lindbergh, Parque México, sur invitation du Conseil Consultatif pour la Réunification Pacifique de la Corée en Amérique Centrale et dans les Caraïbes. Événement culturel et sportif réunissant des représentants diplomatiques de plusieurs nations, dans une atmosphère de paix, d'amitié et de solidarité.",
+      "contentEn": "Participation in the Bibimbap Festival at Foro Lindbergh, Parque México, on invitation of the Advisory Council for the Peaceful Reunification of Korea in Central America and the Caribbean. A cultural and sports event bringing together diplomatic representatives of several nations in an atmosphere of peace, friendship and solidarity.",
+      "contentEs": "Participación en el Festival Bibimbap en el Foro Lindbergh, Parque México, por invitación del Consejo Asesor para la Reunificación Pacífica de Coreia en Centroamérica y el Caribe. Evento cultural y deportivo que reunió a representantes diplomáticas de varias naciones en un ambiente de paz, amistad y solidaridad.",
+      "contentAr": "المشاركة في مهرجان بيبيمباب في فورو ليندبرغ، باركي ميكسيكو، بدعوة من المجلس الاستشاري لإعادة توحيد كوريا سلميًا في أمريكا الوسطى والكاريبي. حدث ثقافي ورياضي جمع ممثلين دبلوماسيين من عدة أمم في أجواء من السلام والصداقة والتضامن.",
+      "contentZh": "应中美洲及加勒比地区韩国和平统一咨询委员会邀请，参加在墨西哥公园Lindbergh论坛举办的拌饭节。这是一场文化体育盛事，多国外交代表齐聚一堂，气氛和平、友谊与团结。",
+      "contentRu": "Участие в фестивале Бибимбап в Foro Lindbergh, Parque México, по приглашению Консультативного совета за мирное объединение Кореи в Центральной Америке и Карибском бассейне. Культурно-спортивное мероприятие, объединившее дипломатических представителей нескольких стран в атмосфере мира, дружбы и солидарности.",
       "date": "2026-05-30"
     },
     {
       "id": "3",
       "title": "Rencontre avec S.E. l'Ambassadeur de Corée du Sud au Mexique",
+      "titleEn": "Meeting with H.E. the Ambassador of South Korea to Mexico",
+      "titleEs": "Reunión con S.E. el Embajador de Corea del México",
+      "titleAr": "لقاء مع سفير كوريا الجنوبية في المكسيك",
+      "titleZh": "会见韩国驻墨西哥大使",
+      "titleRu": "Встреча с Послом Республики Корея в Мексике",
       "content": "Rencontre avec Son Excellence Monsieur l'Ambassadeur JOOIL LEE, la Consul Madame EUNJIN LEE et la Présidente Municipale Madame Caroline Garduño.",
+      "contentEn": "Meeting with His Excellency Ambassador JOOIL LEE, Consul Mrs. EUNJIN LEE and Municipal President Mrs. Caroline Garduño.",
+      "contentEs": "Reunión con Su Excelencia el Embajador JOOIL LEE, la Cónsul Sra. EUNJIN LEE y la Presidenta Municipal Sra. Caroline Garduño.",
+      "contentAr": "لقاء مع سعادة السفير جو إيل لي، القنصل السيدة إون جين لي، والرئيسة البلدية السيدة كارولينا غاردونيو.",
+      "contentZh": "会见大使JOOIL LEE阁下、领事EUNJIN LEE女士及市长Caroline Garduño女士。",
+      "contentRu": "Встреча с Его Превосходительством послом JOOIL LEE, консулом госпожой EUNJIN LEE и муниципальным президентом госпожой Caroline Garduño.",
       "date": "2026-05-30"
     },
     {
       "id": "4",
       "title": "United Nations Genève — Réunion",
+      "titleEn": "United Nations Geneva — Meeting",
+      "titleEs": "Naciones Unidas Ginebra — Reunión",
+      "titleAr": "الأمم المتحدة جنيف — اجتماع",
+      "titleZh": "联合国日内瓦 — 会议",
+      "titleRu": "ООН Женева — встреча",
       "content": "Réunion à l'Organisation des Nations Unies à Genève, Suisse.",
+      "contentEn": "Meeting at the United Nations Organization in Geneva, Switzerland.",
+      "contentEs": "Reunión en la Organización de las Naciones Unidas en Ginebra, Suiza.",
+      "contentAr": "اجتماع في منظمة الأمم المتحدة في جنيف، سويسرا.",
+      "contentZh": "在瑞士日内瓦联合国总部举行的会议。",
+      "contentRu": "Встреча в Организации Объединённых Наций в Женеве, Швейцария.",
       "date": "2026-05-30"
     },
     {
       "id": "5",
       "title": "Nomination Officielle : Ambassadeur des Diplomates Internationaux",
+      "titleEn": "Official Appointment: Ambassador of International Diplomats",
+      "titleEs": "Nombramiento Oficial: Embajador de los Diplomáticos Internacionales",
+      "titleAr": "تعيين رسمي: سفير الدبلوماسيين الدوليين",
+      "titleZh": "正式任命：国际外交官大使",
+      "titleRu": "Официальное назначение: Послед международных дипломатов",
       "content": "Le Dr. Arsène Romaric TATSAZEU a été officiellement nommé Ambassadeur des Diplomates Internationaux. Cette nomination reconnaît son leadership, ses qualités de direction et son engagement à avoir un impact positif. Lettre de nomination officielle reçue le 5 juin 2026.",
+      "contentEn": "Dr. Arsène Romaric TATSAZEU was officially appointed Ambassador of International Diplomats. This appointment recognizes his leadership, his leadership qualities and his commitment to making a positive impact. Official appointment letter received on June 5, 2026.",
+      "contentEs": "El Dr. Arsène Romaric TATSAZEU fue oficialmente nombrado Embajador de los Diplomáticos Internacionales. Este nombramiento reconoce su liderazgo, sus cualidades de dirección y su compromiso de generar un impacto positivo. Carta de nombramiento oficial recibida el 5 de junio de 2026.",
+      "contentAr": "عُيّن الدكتور أرسين روماريك تاتازو رسميًا سفيرًا للدبلوماسيين الدوليين. يعكس هذا التعيين قيادته وصفاته القيادية والتزامه بإحداث أثر إيجابي. تم تسلم خطاب التعيين الرسمي في 5 يونيو 2026.",
+      "contentZh": "阿瑟内·罗梅里克·塔塔泽乌博士被正式任命为国际外交官大使。此项任命表彰了他的领导力、领导才能以及产生积极影响的承诺。官方任命书于2026年6月5日收到。",
+      "contentRu": "Д-р Арсен Ромарик Татазеу официально назначен Послом международных дипломатов. Это назначение признаёт его лидерство, лидерские качества и приверженность позитивному влиянию. Официальное письмо о назначении получено 5 июня 2026 года.",
       "date": "2026-06-05"
     },
     {
       "id": "6",
       "title": "Mission Diplomatique en Albanie — Préparation de la Formation Internationale",
+      "titleEn": "Diplomatic Mission in Albania — Preparing the International Training",
+      "titleEs": "Misión Diplomática en Albania — Preparación de la Formación Internacional",
+      "titleAr": "مهمة دبلوماسية في ألبانيا — التحضير للتدريب الدولي",
+      "titleZh": "阿尔巴尼亚外交使命 — 筹备国际培训",
+      "titleRu": "Дипломатическая миссия в Албании — подготовка Международной подготовки",
       "content": "Mission diplomatique à Tirana, Albanie. Réunion de travail avec Madame Herida Duro, Vice-Ministre de l'Éducation, pour la préparation de la Formation Internationale sur le Protocole Diplomatique et la Lutte Contre la Traite des Êtres Humains, qui se tiendra en Novembre 2026 à Tirana, sous le patronage du Ministère de l'Éducation.",
+      "contentEn": "Diplomatic mission to Tirana, Albania. Working meeting with Mrs. Herida Duro, Deputy Minister of Education, to prepare the International Training on Diplomatic Protocol and the Fight Against Human Trafficking, to be held in November 2026 in Tirana, under the patronage of the Ministry of Education.",
+      "contentEs": "Misión diplomática en Tirana, Albania. Reunión de trabajo con la Sra. Herida Duro, Viceministra de Educación, para la preparación de la Formación Internacional sobre Protocolo Diplomático y la Lucha Contra la Trata de Personas, que se celebrará en noviembre de 2026 en Tirana, bajo el patrocinio del Ministerio de Educación.",
+      "contentAr": "مهمة دبلوماسية في تيرانا، ألبانيا. اجتماع عمل مع السيدة هيرودا ديرو، نائبة وزير التربية والتعليم، للتحضير للتدريب الدولي حول البروتوكول الدبلوماسي ومكافحة الاتجار بالبشر، المقرر في نوفمبر 2026 بتيرانا برعاية وزارة التربية والتعليم.",
+      "contentZh": "阿尔巴尼亚地拉那外交使命。与教育部副部长Herida Duro女士举行工作会议，筹备将于2026年11月在地拉那由教育部主办的外交礼仪与打击人口贩运国际培训。",
+      "contentRu": "Дипломатическая миссия в Тиране, Албания. Рабочая встреча с госпожой Херида Дуро, заместителем министра образования, по подготовке Международной подготовки по дипломатическому протоколу и борьбе с торговлей людьми, которая состоится в ноябре 2026 года в Тиране под патронатом Министерства образования.",
       "date": "2026-06-22"
     },
     {
       "id": "7",
       "title": "Visite Officielle au Kosovo — Forum Mondial de la Jeunesse pour la Paix",
+      "titleEn": "Official Visit to Kosovo — World Youth Forum for Peace",
+      "titleEs": "Visita Oficial al Kosovo — Foro Mundial de la Juventud por la Paz",
+      "titleAr": "زيارة رسمية إلى كوسوفو — المنتدى العالمي للشباب من أجل السلام",
+      "titleZh": "正式访问科索沃 — 世界青年和平论坛",
+      "titleRu": "Официальный визит в Косово — Всемирный молодёжный форум за мир",
       "content": "Visite officielle au Kosovo. Réunion avec Monsieur Sokol Haliti, Maire de la Municipalité de Viti, pour la préparation du Forum Mondial de la Jeunesse pour la Paix dans le Monde (25-29 Août 2026, Viti, Kosovo). Élaboration de la Déclaration de Viti pour la Paix dans le Monde, réunissant des délégations de plus de 80 pays.",
+      "contentEn": "Official visit to Kosovo. Meeting with Mr. Sokol Haliti, Mayor of the Municipality of Viti, to prepare the World Youth Forum for Peace in the World (August 25-29, 2026, Viti, Kosovo). Development of the Viti Declaration for World Peace, bringing together delegations from more than 80 countries.",
+      "contentEs": "Visita oficial al Kosovo. Reunión con el Sr. Sokol Haliti, Alcalde del Municipio de Viti, para la preparación del Foro Mundial de la Juventud por la Paz en el Mundo (25-29 de agosto de 2026, Viti, Kosovo). Elaboración de la Declaración de Viti por la Paz Mundial, reuniendo delegaciones de más de 80 países.",
+      "contentAr": "زيارة رسمية إلى كوسوفو. لقاء مع السيد سوكول هاليتي، عمدة بلدية فيتي، للتحضير للمنتدى العالمي للشباب من أجل السلام في العالم (25-29 أغسطس 2026، فيتي، كوسوفو). إعداد إعلان فيتي من أجل السلام العالمي، الذي جمع وفودًا من أكثر من 80 دولة.",
+      "contentZh": "正式访问科索沃。与维提市市长Sokol Haliti先生会面，筹备世界青年和平论坛（2026年8月25-29日，科索沃维提）。制定《维提世界和平宣言》，汇聚来自80多个国家的代表团。",
+      "contentRu": "Официальный визит в Косово. Встреча с господином Соколом Халити, мэром муниципалитета Вити, по подготовке Всемирного молодёжного форума за мир в мире (25-29 августа 2026, Вити, Косово). Разработка Витийской декларации за мировой мир, объединившей делегации более чем 80 стран.",
       "date": "2026-06-16"
     },
     {
       "id": "8",
       "title": "Festival Culturel de Metepec 2026 — Coopération Culturelle",
+      "titleEn": "Metepec Cultural Festival 2026 — Cultural Cooperation",
+      "titleEs": "Festival Cultural de Metepec 2026 — Cooperación Cultural",
+      "titleAr": "مهرجان ميتيبك الثقافي 2026 — التعاون الثقافي",
+      "titleZh": "2026梅特佩克文化节 — 文化合作",
+      "titleRu": "Фестиваль культуры Метепек 2026 — культурное сотрудничество",
       "content": "Réunion de travail avec les représentants du Centre Culturel de Metepec, État de Mexico, pour l'organisation du Festival Culturel Annuel de Metepec (13-18 Octobre 2026). Le Dr. Arsène Romaric TATSAZEU a été honoré d'un cadeau symbolique par Madame Carolina Garduño, renforçant le rôle de la culture comme pont entre les peuples.",
+      "contentEn": "Working meeting with representatives of the Metepec Cultural Center, State of Mexico, to organize the Annual Metepec Cultural Festival (October 13-18, 2026). Dr. Arsène Romaric TATSAZEU was honored with a symbolic gift by Mrs. Carolina Garduño, strengthening the role of culture as a bridge between peoples.",
+      "contentEs": "Reunión de trabajo con representantes del Centro Cultural de Metepec, Estado de México, para la organización del Festival Cultural Anual de Metepec (13-18 de octubre de 2026). El Dr. Arsène Romaric TATSAZEU fue honrado con un regalo simbólico por la Sra. Carolina Garduño, reforzando el papel de la cultura como puente entre los pueblos.",
+      "contentAr": "اجتماع عمل مع ممثلين عن المركز الثقافي لميتيبك، ولاية ميكسيكو، لتنظيم المهرجان الثقافي السنوي لميتيبك (13-18 أكتوبر 2026). حظي الدكتور أرسين روماريك تاتازو بتكريم من السيدة كارولينا غاردونيو بهدية رمزية، مما يعزز دور الثقافة كجسر بين الشعوب.",
+      "contentZh": "与墨西哥州梅特佩克文化中心代表举行工作会议，筹办梅特佩克年度文化节（2026年10月13-18日）。阿瑟内·罗梅里克·塔塔泽乌博士获Carolina Garduño女士赠送象征性礼物，彰显文化作为民族间桥梁的作用。",
+      "contentRu": "Рабочая встреча с представителями Культурного центра Метепек, штат Мехико, по организации Ежегодного фестиваля культуры Метепек (13-18 октября 2026). Д-р Арсен Ромарик Татазеу был удостоен символического подарка от госпожи Каролины Гардуньо, укрепляя роль культуры как моста между народами.",
       "date": "2026-06-20"
     },
     {
       "id": "9",
       "title": "Participation à l'IGF Riyadh — Gouvernance de l'Internet",
+      "titleEn": "Participation in IGF Riyadh — Internet Governance",
+      "titleEs": "Participación en el IGF Riyadh — Gobernanza de Internet",
+      "titleAr": "المشاركة في منتدى حوكمة الإنترنت — الرياض",
+      "titleZh": "参加利雅得互联网治理论坛",
+      "titleRu": "Участие в IGF Эр-Рияд — управление Интернетом",
       "content": "Participation à l'Internet Governance Forum (IGF) à Riyadh, Arabie Saoudite. Dialogue international sur la gouvernance de l'Internet, la coopération numérique et le développement durable à l'ère du numérique, renforçant l'engagement diplomatique dans les forums technologiques mondiaux.",
+      "contentEn": "Participation in the Internet Governance Forum (IGF) in Riyadh, Saudi Arabia. International dialogue on Internet governance, digital cooperation and sustainable development in the digital age, strengthening diplomatic engagement in global technology forums.",
+      "contentEs": "Participación en el Foro de Gobernanza de Internet (IGF) en Riad, Arabia Saudita. Diálogo internacional sobre gobernanza de Internet, cooperación digital y desarrollo sostenible en la era digital, fortaleciendo el compromiso diplomático en los foros tecnológicos mundiales.",
+      "contentAr": "المشاركة في منتدى حوكمة الإنترنت (IGF) في الرياض، المملكة العربية السعودية. حوار دولي حول حوكمة الإنترنت والتعاون الرقمي والتنمية المستدامة في العصر الرقمي، مما يعزز المساهمة الدبلوماسية في المنتديات التقنية العالمية.",
+      "contentZh": "参加在沙特阿拉伯利雅得举行的互联网治理论坛（IGF）。围绕互联网治理、数字合作与数字时代可持续发展展开国际对话，加强在全球科技论坛中的外交参与。",
+      "contentRu": "Участие в Форуме по управлению Интернетом (IGF) в Эр-Рияде, Саудовская Аравия. Международный диалог об управлении Интернетом, цифровом сотрудничестве и устойчивом развитии в цифровую эпоху, укрепляющий дипломатическое участие в глобальных технологических форумах.",
       "date": "2026-06-19"
     },
     {
       "id": "10",
       "title": "Interview Exclusive — Vision sur la Paix dans le Monde",
+      "titleEn": "Exclusive Interview — Vision for World Peace",
+      "titleEs": "Entrevista Exclusiva — Visión sobre la Paz Mundial",
+      "titleAr": "حوار حصري — رؤية للسلام العالمي",
+      "titleZh": "独家访谈 — 世界和平愿景",
+      "titleRu": "Эксклюзивное интервью — видение мирового мира",
       "content": "Interview exclusive du Dr. Arsène Romaric TATSAZEU sur sa vision pour la paix mondiale, la diplomatie interculturelle et le développement durable à travers l'Europe, l'Asie, l'Amérique Latine et l'Afrique.",
+      "contentEn": "Exclusive interview with Dr. Arsène Romaric TATSAZEU on his vision for world peace, intercultural diplomacy and sustainable development across Europe, Asia, Latin America and Africa.",
+      "contentEs": "Entrevista exclusiva con el Dr. Arsène Romaric TATSAZEU sobre su visión para la paz mundial, la diplomacia intercultural y el desarrollo sostenible a través de Europa, Asia, América Latina y África.",
+      "contentAr": "حوار حصري مع الدكتور أرسين روماريك تاتازو حول رؤيته للسلام العالمي والدبلوماسية بين الثقافات والتنمية المستدامة عبر أوروبا وآسيا وأمريكا اللاتينية وأفريقيا.",
+      "contentZh": "阿瑟内·罗梅里克·塔塔泽乌博士就世界和平、跨文化外交及横跨欧洲、亚洲、拉丁美洲和非洲的可持续发展愿景接受独家专访。",
+      "contentRu": "Эксклюзивное интервью с д-ром Арсеном Ромариком Татазеу о его видении мирового мира, межкультурной дипломатии и устойчивого развития в Европе, Азии, Латинской Америке и Африке.",
       "date": "2026-06-23"
     },
     {
       "id": "11",
       "title": "Délégation Camerounaise en route pour le Kosovo 2026",
+      "titleEn": "Cameroonian Delegation en route for Kosovo 2026",
+      "titleEs": "Delegación Camerunesa en ruta hacia Kosovo 2026",
+      "titleAr": "وفد الكاميرون في طريقه إلى كوسوفو 2026",
+      "titleZh": "喀麦隆代表团前往科索沃 2026",
+      "titleRu": "Камерунская делегация в пути в Косово 2026",
       "content": "Délégation camerounaise en route pour le Kosovo afin de participer aux missions diplomatiques et forums internationaux 2026.",
+      "contentEn": "Cameroonian delegation en route for Kosovo to take part in diplomatic missions and international forums in 2026.",
+      "contentEs": "Delegación camerunesa en ruta hacia Kosovo para participar en misiones diplomáticas y foros internacionales en 2026.",
+      "contentAr": "وفد كاميروني في طريقه إلى كوسوفو للمشاركة في المهام الدبلوماسية والمنتديات الدولية عام 2026.",
+      "contentZh": "喀麦隆代表团前往科索沃，参加2026年的外交使命与国际论坛。",
+      "contentRu": "Камерунская делегация в пути в Косово для участия в дипломатических миссиях и международных форумах 2026 года.",
       "date": "2026-08-24"
     },
     {
       "id": "12",
       "title": "Distinction Spéciale du Maire de Viti — Sokol Haliti",
+      "titleEn": "Special Distinction from the Mayor of Viti — Sokol Haliti",
+      "titleEs": "Distinción Especial del Alcalde de Viti — Sokol Haliti",
+      "titleAr": "تميز خاص من عمدة فيتي — سوكول هاليتي",
+      "titleZh": "维提市长特别荣誉 — Sokol Haliti",
+      "titleRu": "Особое отличие мэра Вити — Сокол Халити",
       "content": "L'Ambassadeur Arsène TATSAZEU a reçu une distinction spéciale de Monsieur Sokol Haliti, Maire de la ville de Viti, au Kosovo, en reconnaissance de son engagement pour la paix et la coopération internationale.",
+      "contentEn": "Ambassador Arsène TATSAZEU received a special distinction from Mr. Sokol Haliti, Mayor of the city of Viti, in Kosovo, in recognition of his commitment to peace and international cooperation.",
+      "contentEs": "El Embajador Arsène TATSAZEU recibió una distinción especial del Sr. Sokol Haliti, Alcalde de la ciudad de Viti, en Kosovo, en reconocimiento a su compromiso con la paz y la cooperación internacional.",
+      "contentAr": "حصل السفير أرسين تاتازو على تميز خاص من السيد سوكول هاليتي، عمدة مدينة فيتي، في كوسوفو، تقديرًا لالتزامه بالسلام والتعاون الدولي.",
+      "contentZh": "阿尔塞纳·塔塔泽乌大使获科索沃维提市市长Sokol Haliti先生颁发特别荣誉，表彰其对和平与国际合作的贡献。",
+      "contentRu": "Посол Арсен Татазеу получил особое отличие от господина Сокола Халити, мэра города Вити, Косово, в признание его приверженности миру и международному сотрудничеству.",
       "date": "2026-08-27"
     },
     {
       "id": "13",
       "title": "Bref échange avec S.E. Dr Vjosa Osmani — Présidente de la République du Kosovo",
+      "titleEn": "Brief Exchange with H.E. Dr Vjosa Osmani — President of the Republic of Kosovo",
+      "titleEs": "Breve Intercambio con S.E. Dr Vjosa Osmani — Presidenta de la República de Kosovo",
+      "titleAr": "تبادل موجز مع السيدة الدكتورة فيوسا أوسماني — رئيسة جمهورية كوسوفو",
+      "titleZh": "与科索沃共和国总统Vjosa Osmani博士简短交流",
+      "titleRu": "Краткий обмен с Е.П. д-ром Вьосой Османи — Президентом Республики Косово",
       "content": "Bref échange entre l'Ambassadeur Arsène TATSAZEU et Son Excellence Madame la Présidente de la République du Kosovo, Dr Vjosa Osmani, lors de sa visite officielle au Kosovo.",
+      "contentEn": "Brief exchange between Ambassador Arsène TATSAZEU and Her Excellency Dr Vjosa Osmani, President of the Republic of Kosovo, during his official visit to Kosovo.",
+      "contentEs": "Breve intercambio entre el Embajador Arsène TATSAZEU y Su Excelencia la Dra. Vjosa Osmani, Presidenta de la República de Kosovo, durante su visita oficial al Kosovo.",
+      "contentAr": "تبادل موجز بين السفير أرسين تاتازو وسعادة الدكتورة فيوسا أوسماني، رئيسة جمهورية كوسوفو، خلال زيارته الرسمية إلى كوسوفو.",
+      "contentZh": "阿尔塞纳·塔塔泽乌大使在正式访问科索沃期间，与科索沃共和国总统Vjosa Osmani阁下进行简短交流。",
+      "contentRu": "Краткий обмен между послом Арсеном Татазеу и Её Превосходительством д-ром Вьосой Османи, Президентом Республики Косово, во время его официального визита в Косово.",
       "date": "2026-08-28"
     },
     {
       "id": "14",
       "title": "World Peace Forum in Kosovo — Viti, 25–29 Août 2026",
+      "titleEn": "World Peace Forum in Kosovo — Viti, August 25–29, 2026",
+      "titleEs": "Foro Mundial por la Paz en Kosovo — Viti, 25–29 de agosto de 2026",
+      "titleAr": "منتدى السلام العالمي في كوسوفو — فيتي، 25–29 أغسطس 2026",
+      "titleZh": "科索沃世界和平论坛 — 维提，2026年8月25–29日",
+      "titleRu": "Всемирный форум за мир в Косово — Вити, 25–29 августа 2026",
       "content": "Du 25 au 29 août 2026, l'Ambassadeur Dr. Arsène TATSAZEU a activement contribué à l'organisation du World Peace Forum à Viti, Kosovo. L'événement a réuni des jeunes de différents pays, des diplomates et des leaders engagés pour la paix, la stabilité et le développement durable, aboutissant à une Déclaration destinée aux Nations Unies. L'Ambassadeur y a reçu une distinction honorifique de la Municipalité de Viti, en présence de nombreux diplomates et de la Présidente de la République du Kosovo.",
+      "contentEn": "From August 25 to 29, 2026, Ambassador Dr. Arsène TATSAZEU actively contributed to the organization of the World Peace Forum in Viti, Kosovo. The event brought together young people from different countries, diplomats and leaders committed to peace, stability and sustainable development, resulting in a Declaration intended for the United Nations. The Ambassador received an honorary distinction from the Municipality of Viti, in the presence of numerous diplomats and the President of the Republic of Kosovo.",
+      "contentEs": "Del 25 al 29 de agosto de 2026, el Embajador Dr. Arsène TATSAZEU contribuyó activamente a la organización del Foro Mundial por la Paz en Viti, Kosovo. El evento reunió a jóvenes de diferentes países, diplomáticos y líderes comprometidos con la paz, la estabilidad y el desarrollo sostenible, dando lugar a una Declaración destinada a las Naciones Unidas. El Embajador recibió una distinción honorífica del Municipio de Viti, en presencia de numerosos diplomáticos y de la Presidenta de la República de Kosovo.",
+      "contentAr": "من 25 إلى 29 أغسطس 2026، أسهم السفير الدكتور أرسين تاتازو بفعالية في تنظيم منتدى السلام العالمي في فيتي، كوسوفو. جمع الحدث شبابًا من بلدان مختلفة ودبلوماسيين وقادة ملتزمين بالسلام والاستقرار والتنمية المستدامة، وأسفر عن إعلان موجه إلى الأمم المتحدة. حصل السفير على تميز شرفي من بلدية فيتي، بحضور العديد من الدبلوماسيين ورئيسة جمهورية كوسوفو.",
+      "contentZh": "2026年8月25日至29日，阿尔塞纳·塔塔泽乌大使积极推动在科索沃维提举办的世界和平论坛。活动汇聚各国青年、外交官及致力于和平、稳定与可持续发展的领袖，最终形成提交联合国的宣言。大使在众多外交官及科索沃共和国总统见证下获维提市颁发的荣誉表彰。",
+      "contentRu": "С 25 по 29 августа 2026 года посол д-р Арсен Татазеу активно содействовал организации Всемирного форума за мир в Вити, Косово. Мероприятие объединило молодёжь разных стран, дипломатов и лидеров, приверженных миру, стабильности и устойчивому развитию, и завершилось Декларацией, предназначенной для ООН. Посол получил почётное отличие муниципалитета Вити в присутствии многочисленных дипломатов и Президента Республики Косово.",
       "date": "2026-08-29"
     },
     {
       "id": "15",
       "title": "Conférence avec le Secrétariat des Relations Extérieures du Mexique",
+      "titleEn": "Conference with the Mexican Secretariat of Foreign Affairs",
+      "titleEs": "Conferencia con la Secretaría de Relaciones Exteriores de México",
+      "titleAr": "مؤتمر مع السكرتارية الخارجية المكسيكية",
+      "titleZh": "与墨西哥外交部会议",
+      "titleRu": "Конференция с Министерством иностранных дел Мексики",
       "content": "Conférence sur la coopération internationale et l'immigration avec le Secrétariat des Relations Extérieures du Mexique. Bref dialogue avec la sénatrice Karina Isabel Ruiz après l'événement qui s'est déroulé au Mexique.",
+      "contentEn": "Conference on international cooperation and immigration with the Mexican Secretariat of Foreign Affairs. Brief dialogue with Senator Karina Isabel Ruiz after the event held in Mexico.",
+      "contentEs": "Conferencia sobre cooperación internacional e inmigración con la Secretaría de Relaciones Exteriores de México. Breve diálogo con la senadora Karina Isabel Ruiz después del evento celebrado en México.",
+      "contentAr": "مؤتمر حول التعاون الدولي والهجرة مع السكرتارية الخارجية للمكسيك. حوار موجز مع السيناتور كارينا إيزابيل رويز بعد الحدث الذي أُقيم في المكسيك.",
+      "contentZh": "与墨西哥外交部就国际合作与移民问题举行会议。活动结束后与参议员Karina Isabel Ruiz进行简短交流。",
+      "contentRu": "Конференция по международному сотрудничеству и иммиграции с Министерством иностранных дел Мексики. Краткий диалог с сенатором Кариной Изабель Руис после мероприятия в Мексике.",
       "date": "2026-07-15"
+    },
+    {
+      "id": "16",
+      "title": "Présence à l'Office des Nations Unies — Vienne, Autriche",
+      "titleEn": "United Nations Office — Vienna, Austria",
+      "titleEs": "Oficina de las Naciones Unidas — Viena, Austria",
+      "titleAr": "مكتب الأمم المتحدة — فيينا، النمسا",
+      "titleZh": "联合国办事处 — 奥地利维也纳",
+      "titleRu": "Офис Организации Объединённых Наций — Вена, Австрия",
+      "content": "Mission diplomatique à l'Office des Nations Unies à Vienne, Autriche. Participation aux sessions des commissions onusiennes et renforcement de la coopération internationale.",
+      "contentEn": "Diplomatic mission to the United Nations Office in Vienna, Austria. Participation in UN commission sessions and strengthening of international cooperation.",
+      "contentEs": "Misión diplomática a la Oficina de las Naciones Unidas en Viena, Austria. Participación en sesiones de las comisiones de la ONU y fortalecimiento de la cooperación internacional.",
+      "contentAr": "مهمة دبلوماسية إلى مكتب الأمم المتحدة في فيينا، النمسا. المشاركة في جلسات لجان الأمم المتحدة وتعزيز التعاون الدولي.",
+      "contentZh": "对奥地利维也纳联合国办事处的外交访问。参加联合国各委员会会议，加强国际合作。",
+      "contentRu": "Дипломатическая миссия в офис ООН в Вене, Австрия. Участие в сессиях комиссий ООН и укрепление международного сотрудничества.",
+      "date": "2026-06-17"
+    },
+    {
+      "id": "17",
+      "title": "Invitation Officielle — Primer Foro Internacional en Michoacán (CONAPRESU)",
+      "titleEn": "Official Invitation — First International Forum in Michoacán (CONAPRESU)",
+      "titleEs": "Invitación Oficial — Primer Foro Internacional en Michoacán (CONAPRESU)",
+      "titleAr": "دعوة رسمية — أول المنتدى الدولي في ميشواكان (كونابريسو)",
+      "titleZh": "正式邀请 — 米却肯首届国际论坛（CONAPRESU）",
+      "titleRu": "Официальное приглашение — Первый международный форум в Мичоакане (CONAPRESU)",
+      "content": "La CONAPRESU (Coalición Internacional, Nacional y Estatal de Prevención del Suicidio) a invité officiellement l'Ambassadeur Arsène TATSAZEU à participer au Primer Foro Internacional en Michoacán « Cambiando la Narrativa », le 18 septembre 2026 à l'Universidad Don Vasco, Uruapan, Michoacán, Mexique.",
+      "contentEn": "CONAPRESU (International, National and State Coalition for Suicide Prevention) has officially invited Ambassador Arsène TATSAZEU to participate in the First International Forum in Michoacán “Changing the Narrative”, on September 18, 2026 at Universidad Don Vasco, Uruapan, Michoacán, Mexico.",
+      "contentEs": "La CONAPRESU (Coalición Internacional, Nacional y Estatal de Prevención del Suicidio) ha invitado oficialmente al Embajador Arsène TATSAZEU a participar en el Primer Foro Internacional en Michoacán “Cambiando la Narrativa”, el 18 de septiembre de 2026 en la Universidad Don Vasco, Uruapan, Michoacán, México.",
+      "contentAr": "دعت CONAPRESU (ال Coalition الدولية والوطنية والدولية لمنع الانتحار) السفير أرسين تاتازو رسميًا للمشاركة في أول المنتدى الدولي في ميشواكان «تغيير السرد»، في 18 سبتمبر 2026 بجامعة دون فاسكو، أوروابان، ميشواكان، المكسيك.",
+      "contentZh": "墨西哥自杀预防国际、国家与州联盟（CONAPRESU）正式邀请阿尔塞纳·塔塔泽乌大使参加将于2026年9月18日在墨西哥米却肯州乌阿潘市Don Vasco大学举办的米却肯首届国际论坛——“改变叙事”。",
+      "contentRu": "CONAPRESU (Международная, национальная и государственная коалиция по предотвращению самоубийств) официально пригласила посла Арсена Татазеу принять участие в Первом международном форуме в Мичоакане «Меняем нарратив», 18 сентября 2026 года в Universidad Don Vasco, Уруапан, Мичоакан, Мексика.",
+      "date": "2026-09-12"
     }
   ]
 };
@@ -1074,6 +2266,35 @@ function assetUrl(p) {
   return ASSETS_BASE + '/' + p;
 }
 
+// ── i18n helpers for dynamic content ──
+const LANG_SUFFIX = { en:'En', es:'Es', ar:'Ar', zh:'Zh', ru:'Ru' };
+const MONTH_LOCALES = { fr:'fr-FR', en:'en-US', es:'es-ES', ar:'ar', zh:'zh-CN', ru:'ru-RU' };
+const CATEGORY_KEYS = { Diplomacy:'filter_dip', Certificate:'filter_cert', Publication:'filter_pub', Partnership:'filter_part' };
+
+function trField(item, base) {
+  const s = LANG_SUFFIX[lang];
+  if (s) {
+    const v = item[base + s];
+    if (v) return v;
+    const en = item[base + 'En'];
+    if (en) return en;
+  }
+  return item[base] || '';
+}
+
+function catLabel(cat) {
+  if (!cat) return i18n[lang].cat_general;
+  const key = CATEGORY_KEYS[cat];
+  return key ? i18n[lang][key] : cat;
+}
+
+function parseItemDate(d) {
+  if (!d) return 0;
+  if (/^\d{4}$/.test(d)) return new Date(d + '-01-01T00:00:00').getTime();
+  const t = new Date(d.length === 10 ? d + 'T00:00:00' : d).getTime();
+  return isNaN(t) ? 0 : t;
+}
+
 // ── State ─────────────────────────────
 let lang = localStorage.getItem('portfolioLang') || 'fr';
 let theme = localStorage.getItem('portfolioTheme') || 'light';
@@ -1083,6 +2304,7 @@ let allRealizations = [];
 let allAlbums = [];
 let allPhotos = [];
 let allVideos = [];
+let allNews = [];
 let galleryIndex = 0;
 let currentFilter = 'all';
 let searchTerm = '';
@@ -1101,9 +2323,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // ── Load Static Data ───────────────────
 function loadStaticData() {
-  allRealizations = staticData.realizations;
-  allAlbums = staticData.albums;
+  // Newest first (year-only dates sort as Jan 1 of that year)
+  allRealizations = [...staticData.realizations].sort((a, b) => parseItemDate(b.date) - parseItemDate(a.date));
+  allAlbums = [...staticData.albums].sort((a, b) => parseItemDate(b.date) - parseItemDate(a.date));
   allVideos = staticData.videos;
+  allNews = [...staticData.news].sort((a, b) => parseItemDate(b.date) - parseItemDate(a.date));
   
   // Flatten albums into allPhotos for lightbox
   allPhotos = [];
@@ -1116,7 +2340,7 @@ function loadStaticData() {
   renderRealizations();
   renderGallery();
   renderVideos();
-  renderNews(staticData.news);
+  renderNews(allNews);
   initFilters();
 }
 
@@ -1153,6 +2377,8 @@ function applyLang() {
   });
   if (allRealizations.length) renderRealizations();
   if (allPhotos.length) renderGallery();
+  if (allVideos.length) renderVideos();
+  if (allNews.length) renderNews(allNews);
 }
 function changeLanguage(newLang) {
   if (supportedLangs.includes(newLang)) {
@@ -1278,10 +2504,10 @@ function renderRealizations() {
       <article class="real-card fade-in">
         <div class="real-card-img">
           ${imgHtml}
-          ${r.featured ? '<span class="real-card-featured">⭐ Featured</span>' : ''}
+          ${r.featured ? `<span class="real-card-featured">⭐ ${i18n[lang].featured}</span>` : ''}
         </div>
         <div class="real-card-body">
-          <span class="real-card-cat">${r.category || 'General'}</span>
+          <span class="real-card-cat">${catLabel(r.category)}</span>
           <h3 class="real-card-title">${title || ''}</h3>
           <p class="real-card-desc">${desc || ''}</p>
           <div class="real-card-footer">
@@ -1319,7 +2545,7 @@ function renderGallery() {
   if (!container) return;
 
   if (!allAlbums || !allAlbums.length) {
-    container.innerHTML = '<div class="loading">Galerie non disponible.</div>';
+    container.innerHTML = `<div class="loading">${i18n[lang].empty_gallery}</div>`;
     return;
   }
 
@@ -1332,8 +2558,8 @@ function renderGallery() {
     const stackHtml = `
       <div id="stack-wrapper-${album.id}" class="album-stack-wrapper" onclick="openAlbum('${album.id}')">
         <div class="album-header mb-32">
-          <h3 class="album-title">${album.title}</h3>
-          <p class="album-desc">${album.description || ''}</p>
+          <h3 class="album-title">${trField(album, 'title')}</h3>
+          <p class="album-desc">${trField(album, 'description')}</p>
           <div class="album-line"></div>
         </div>
         <div class="album-stack">
@@ -1343,7 +2569,7 @@ function renderGallery() {
             </div>
           `).join('')}
           <div class="album-stack-info">
-            <i class="fas fa-images"></i> ${album.photos.length} photos
+            <i class="fas fa-images"></i> ${i18n[lang].photos_count.replace('{n}', album.photos.length)}
           </div>
         </div>
     `;
@@ -1364,8 +2590,8 @@ function openAlbum(id) {
   const desc = document.getElementById('modalAlbumDesc');
   const grid = document.getElementById('modalAlbumGrid');
 
-  title.textContent = album.title;
-  desc.textContent = album.description || '';
+  title.textContent = trField(album, 'title');
+  desc.textContent = trField(album, 'description');
   
   // Find global start index for lightbox
   let startIdx = 0;
@@ -1404,7 +2630,7 @@ function renderVideos() {
   if (!grid) return;
 
   if (!allVideos.length) {
-    grid.innerHTML = '<div class="loading" style="color:rgba(255,255,255,.4)">Vidéos non disponibles.</div>';
+    grid.innerHTML = `<div class="loading" style="color:rgba(255,255,255,.4)">${i18n[lang].empty_videos}</div>`;
     return;
   }
 
@@ -1417,8 +2643,8 @@ function renderVideos() {
         + `<div class="video-play-btn"><span><i class="fas fa-play"></i></span></div>
       </div>
       <div class="video-card-body">
-        <h3 class="video-card-title">${v.title}</h3>
-        <p class="video-card-desc">${v.description || ''}</p>
+        <h3 class="video-card-title">${trField(v, 'title')}</h3>
+        <p class="video-card-desc">${trField(v, 'description')}</p>
       </div>
     </div>`;
   }).join('');
@@ -1429,21 +2655,21 @@ function renderNews(items) {
   const list = document.getElementById('newsList');
   if (!list) return;
   if (!items.length) {
-    list.innerHTML = '<div class="loading">Aucune actualité disponible.</div>';
+    list.innerHTML = `<div class="loading">${i18n[lang].empty_news}</div>`;
     return;
   }
-  list.innerHTML = items.slice(0, 8).map(n => {
+  list.innerHTML = items.map(n => {
     const d = new Date(n.date || Date.now());
     return `
       <article class="news-item">
         <div class="news-date">
           <div class="news-date-day">${String(d.getDate()).padStart(2,'0')}</div>
-          <div class="news-date-month">${d.toLocaleString(lang === 'fr' ? 'fr-FR' : 'en-US', {month:'short'}).toUpperCase()}</div>
+          <div class="news-date-month">${d.toLocaleString(MONTH_LOCALES[lang] || 'en-US', {month:'short'}).toUpperCase()}</div>
           <div class="news-date-year">${d.getFullYear()}</div>
         </div>
         <div>
-          <h3 class="news-title">${n.title}</h3>
-          <p class="news-content">${(n.content || '').substring(0, 280)}${n.content?.length > 280 ? '…' : ''}</p>
+          <h3 class="news-title">${trField(n, 'title')}</h3>
+          <p class="news-content">${trField(n, 'content').substring(0, 280)}${trField(n, 'content').length > 280 ? '…' : ''}</p>
         </div>
       </article>`;
   }).join('');
