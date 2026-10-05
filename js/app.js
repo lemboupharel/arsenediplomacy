@@ -573,6 +573,66 @@ const staticData = {
       "pdfUrl": "",
       "date": "2026-06-16",
       "featured": true
+    },
+    {
+      "id": "36",
+      "title": "Délégation Camerounaise en route pour le Kosovo 2026",
+      "titleEn": "Cameroonian Delegation en route for Kosovo 2026",
+      "description": "Délégation camerounaise en route pour le Kosovo afin de participer aux missions diplomatiques et forums internationaux 2026.",
+      "descriptionEn": "Cameroonian delegation en route for Kosovo to take part in diplomatic missions and international forums in 2026.",
+      "category": "Diplomacy",
+      "imageUrl": "uploads/photos/gallery_082_kosovo_delegation.jpeg",
+      "pdfUrl": "",
+      "date": "2026-08-24",
+      "featured": false
+    },
+    {
+      "id": "37",
+      "title": "Distinction Spéciale du Maire de la Ville de Viti — Kosovo",
+      "titleEn": "Special Distinction from the Mayor of the City of Viti — Kosovo",
+      "description": "Remise d'une distinction spéciale à l'Ambassadeur Arsène TATSAZEU par Monsieur Sokol Haliti, Maire de la ville de Viti, au Kosovo.",
+      "descriptionEn": "Special distinction presented to Ambassador Arsène TATSAZEU by Mr. Sokol Haliti, Mayor of the city of Viti, in Kosovo.",
+      "category": "Certificate",
+      "imageUrl": "uploads/photos/gallery_087_viti_mayor.jpeg",
+      "pdfUrl": "",
+      "date": "2026-08-27",
+      "featured": true
+    },
+    {
+      "id": "38",
+      "title": "Bref échange avec S.E. la Présidente de la République du Kosovo — Dr Vjosa Osmani",
+      "titleEn": "Brief Exchange with H.E. the President of the Republic of Kosovo — Dr Vjosa Osmani",
+      "description": "Bref échange entre l'Ambassadeur Arsène TATSAZEU et Son Excellence Madame la Présidente de la République du Kosovo, Dr Vjosa Osmani, lors de sa visite officielle au Kosovo.",
+      "descriptionEn": "Brief exchange between Ambassador Arsène TATSAZEU and Her Excellency Dr Vjosa Osmani, President of the Republic of Kosovo, during his official visit to Kosovo.",
+      "category": "Diplomacy",
+      "imageUrl": "uploads/photos/gallery_094_kosovo_president.jpeg",
+      "pdfUrl": "",
+      "date": "2026-08-28",
+      "featured": true
+    },
+    {
+      "id": "39",
+      "title": "World Peace Forum in Kosovo — Viti, 25–29 Août 2026",
+      "titleEn": "World Peace Forum in Kosovo — Viti, August 25–29, 2026",
+      "description": "Du 25 au 29 août 2026, l'Ambassadeur Dr. Arsène TATSAZEU a activement contribué à l'organisation du World Peace Forum à Viti, Kosovo. L'événement a réuni des jeunes de différents pays, des diplomates et des leaders engagés pour la paix, la stabilité et le développement durable. Les discussions ont abouti à l'établissement d'une Déclaration destinée aux Nations Unies. L'Ambassadeur y a reçu une distinction honorifique de la Municipalité de Viti, en présence de nombreux diplomates et de la Présidente de la République du Kosovo.",
+      "descriptionEn": "From August 25 to 29, 2026, Ambassador Dr. Arsène TATSAZEU actively contributed to the organization of the World Peace Forum in Viti, Kosovo. The event brought together young people from different countries, diplomats and leaders committed to peace, stability and sustainable development. Discussions led to the preparation of a Declaration intended to be submitted to the United Nations. The Ambassador received an honorary distinction from the Municipality of Viti, in the presence of numerous diplomats and the President of the Republic of Kosovo.",
+      "category": "Diplomacy",
+      "imageUrl": "uploads/photos/gallery_110_world_peace_forum.jpeg",
+      "pdfUrl": "",
+      "date": "2026-08-29",
+      "featured": true
+    },
+    {
+      "id": "40",
+      "title": "Conférence avec le Secrétariat des Relations Extérieures du Mexique — Coopération Internationale & Immigration",
+      "titleEn": "Conference with the Mexican Secretariat of Foreign Affairs — International Cooperation & Immigration",
+      "description": "Conférence sur la coopération internationale et l'immigration organisée avec le Secrétariat des Relations Extérieures du Mexique. Bref dialogue avec la sénatrice Karina Isabel Ruiz après l'événement.",
+      "descriptionEn": "Conference on international cooperation and immigration held with the Mexican Secretariat of Foreign Affairs. Brief dialogue with Senator Karina Isabel Ruiz after the event.",
+      "category": "Diplomacy",
+      "imageUrl": "uploads/photos/gallery_175_mexico_sre.jpeg",
+      "pdfUrl": "",
+      "date": "2026-07-15",
+      "featured": false
     }
   ],
   albums: [
@@ -737,6 +797,136 @@ const staticData = {
         { "url": "uploads/photos/gallery_080_albania.jpeg", "caption": "" },
         { "url": "uploads/photos/gallery_081_albania.jpeg", "caption": "" }
       ]
+    },
+    {
+      "id": "kosovo-delegation-2026",
+      "title": "Délégation Camerounaise en route pour le Kosovo 2026",
+      "description": "Délégation camerounaise en route pour le Kosovo — missions diplomatiques et forums internationaux 2026.",
+      "photos": [
+        { "url": "uploads/photos/gallery_082_kosovo_delegation.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_083_kosovo_delegation.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_084_kosovo_delegation.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_085_kosovo_delegation.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_086_kosovo_delegation.jpeg", "caption": "" }
+      ]
+    },
+    {
+      "id": "viti-mayor-distinction-2026",
+      "title": "Distinction Spéciale du Maire de Viti — Kosovo",
+      "description": "Remise d'une distinction spéciale par Monsieur Sokol Haliti, Maire de la ville de Viti, au Kosovo.",
+      "photos": [
+        { "url": "uploads/photos/gallery_087_viti_mayor.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_088_viti_mayor.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_089_viti_mayor.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_090_viti_mayor.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_091_viti_mayor.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_092_viti_mayor.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_093_viti_mayor.jpeg", "caption": "" }
+      ]
+    },
+    {
+      "id": "kosovo-president-osmani-2026",
+      "title": "Rencontre avec S.E. la Présidente du Kosovo — Dr Vjosa Osmani",
+      "description": "Bref échange entre l'Ambassadeur Arsène TATSAZEU et Son Excellence Madame la Présidente de la République du Kosovo, Dr Vjosa Osmani.",
+      "photos": [
+        { "url": "uploads/photos/gallery_094_kosovo_president.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_095_kosovo_president.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_096_kosovo_president.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_097_kosovo_president.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_098_kosovo_president.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_099_kosovo_president.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_100_kosovo_president.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_101_kosovo_president.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_102_kosovo_president.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_103_kosovo_president.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_104_kosovo_president.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_105_kosovo_president.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_106_kosovo_president.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_107_kosovo_president.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_108_kosovo_president.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_109_kosovo_president.jpeg", "caption": "" }
+      ]
+    },
+    {
+      "id": "world-peace-forum-viti-2026",
+      "title": "World Peace Forum in Kosovo — Viti, 25–29 Août 2026",
+      "description": "Ambassadeur Dr. Arsène TATSAZEU, contributeur actif à l'organisation du World Peace Forum à Viti, Kosovo. Distinction honorifique de la Municipalité de Viti et Déclaration destinée aux Nations Unies.",
+      "photos": [
+        { "url": "uploads/photos/gallery_110_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_111_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_112_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_113_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_114_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_115_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_116_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_117_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_118_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_119_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_120_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_121_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_122_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_123_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_124_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_125_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_126_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_127_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_128_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_129_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_130_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_131_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_132_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_133_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_134_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_135_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_136_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_137_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_138_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_139_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_140_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_141_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_142_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_143_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_144_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_145_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_146_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_147_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_148_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_149_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_150_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_151_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_152_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_153_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_154_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_155_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_156_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_157_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_158_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_159_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_160_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_161_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_162_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_163_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_164_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_165_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_166_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_167_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_168_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_169_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_170_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_171_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_172_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_173_world_peace_forum.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_174_world_peace_forum.jpeg", "caption": "" }
+      ]
+    },
+    {
+      "id": "mexico-sre-cooperation-2026",
+      "title": "Conférence avec le Secrétariat des Relations Extérieures du Mexique",
+      "description": "Conférence sur la coopération internationale et l'immigration. Bref dialogue avec la sénatrice Karina Isabel Ruiz après l'événement.",
+      "photos": [
+        { "url": "uploads/photos/gallery_175_mexico_sre.jpeg", "caption": "" },
+        { "url": "uploads/photos/gallery_176_mexico_sre.jpeg", "caption": "" }
+      ]
     }
   ],
   videos: [
@@ -841,6 +1031,36 @@ const staticData = {
       "title": "Interview Exclusive — Vision sur la Paix dans le Monde",
       "content": "Interview exclusive du Dr. Arsène Romaric TATSAZEU sur sa vision pour la paix mondiale, la diplomatie interculturelle et le développement durable à travers l'Europe, l'Asie, l'Amérique Latine et l'Afrique.",
       "date": "2026-06-23"
+    },
+    {
+      "id": "11",
+      "title": "Délégation Camerounaise en route pour le Kosovo 2026",
+      "content": "Délégation camerounaise en route pour le Kosovo afin de participer aux missions diplomatiques et forums internationaux 2026.",
+      "date": "2026-08-24"
+    },
+    {
+      "id": "12",
+      "title": "Distinction Spéciale du Maire de Viti — Sokol Haliti",
+      "content": "L'Ambassadeur Arsène TATSAZEU a reçu une distinction spéciale de Monsieur Sokol Haliti, Maire de la ville de Viti, au Kosovo, en reconnaissance de son engagement pour la paix et la coopération internationale.",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "13",
+      "title": "Bref échange avec S.E. Dr Vjosa Osmani — Présidente de la République du Kosovo",
+      "content": "Bref échange entre l'Ambassadeur Arsène TATSAZEU et Son Excellence Madame la Présidente de la République du Kosovo, Dr Vjosa Osmani, lors de sa visite officielle au Kosovo.",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "14",
+      "title": "World Peace Forum in Kosovo — Viti, 25–29 Août 2026",
+      "content": "Du 25 au 29 août 2026, l'Ambassadeur Dr. Arsène TATSAZEU a activement contribué à l'organisation du World Peace Forum à Viti, Kosovo. L'événement a réuni des jeunes de différents pays, des diplomates et des leaders engagés pour la paix, la stabilité et le développement durable, aboutissant à une Déclaration destinée aux Nations Unies. L'Ambassadeur y a reçu une distinction honorifique de la Municipalité de Viti, en présence de nombreux diplomates et de la Présidente de la République du Kosovo.",
+      "date": "2026-08-29"
+    },
+    {
+      "id": "15",
+      "title": "Conférence avec le Secrétariat des Relations Extérieures du Mexique",
+      "content": "Conférence sur la coopération internationale et l'immigration avec le Secrétariat des Relations Extérieures du Mexique. Bref dialogue avec la sénatrice Karina Isabel Ruiz après l'événement qui s'est déroulé au Mexique.",
+      "date": "2026-07-15"
     }
   ]
 };
